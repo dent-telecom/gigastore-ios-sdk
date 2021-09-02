@@ -1,0 +1,85 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DENTGigastoreSDK
+import CoreTelephony
+import Foundation
+import Swift
+import UIKit
+public typealias GigastoreDeviceIsEsimCapableCompletion = (Swift.Bool) -> Swift.Void
+public typealias GigastoreHandleActivateItemCompletion = (DENTGigastoreSDK.GigastoreESIMProfile?, Swift.Error?) -> Swift.Void?
+public typealias GigastoreHandleInstallProfileCompletion = (DENTGigastoreSDK.GigastoreESIMProfile?, Swift.Error?) -> Swift.Void?
+public typealias GigastoreHandleAllProfilesCompletion = ([DENTGigastoreSDK.GigastoreESIMProfile]?, Swift.Error?) -> Swift.Void?
+@_hasMissingDesignatedInitializers public class ​GigastoreSession {
+  public func load(withSDKKey: Swift.String)
+  public func setUserToken(userToken: Swift.String)
+  public func isEsimCapable(completion: DENTGigastoreSDK.GigastoreDeviceIsEsimCapableCompletion? = nil)
+  public func activateItem(inventoryItem: Swift.String?, metaTag: Swift.String?, completion: DENTGigastoreSDK.GigastoreHandleActivateItemCompletion? = nil)
+  public func installProfile(profile: DENTGigastoreSDK.GigastoreESIMProfile, completion: DENTGigastoreSDK.GigastoreHandleInstallProfileCompletion? = nil)
+  public func getAllProfiles(completion: DENTGigastoreSDK.GigastoreHandleAllProfilesCompletion? = nil)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class GigastoreESIMProfile : ObjectiveC.NSObject, Swift.Codable {
+  public enum State : Swift.String, Swift.Codable {
+    case released
+    case installed
+    case available
+    case allocated
+    case linked
+    case confirmed
+    case unavailable
+    case created
+    case disabled
+    case enabled
+    case deleted
+    case unknown
+    case quarantine
+    case error
+    case downloaded
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public enum CodingKeys : Swift.String, Swift.CodingKey {
+    case id
+    case iccid
+    case imsi
+    case eid
+    case subscription
+    case state
+    public init?(rawValue: Swift.String)
+    public init?(stringValue: Swift.String)
+    public init?(intValue: Swift.Int)
+    public typealias RawValue = Swift.String
+    public var intValue: Swift.Int? {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+    public var stringValue: Swift.String {
+      get
+    }
+  }
+  public var id: Swift.String?
+  public var state: DENTGigastoreSDK.GigastoreESIMProfile.State?
+  public var imsi: Swift.String?
+  public var isValidEsimProfile: Swift.Bool {
+    get
+  }
+  public var isInstalled: Swift.Bool {
+    get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+public let ​Gigastore: DENTGigastoreSDK.​GigastoreSession
+extension DENTGigastoreSDK.GigastoreESIMProfile.State : Swift.Equatable {}
+extension DENTGigastoreSDK.GigastoreESIMProfile.State : Swift.Hashable {}
+extension DENTGigastoreSDK.GigastoreESIMProfile.State : Swift.RawRepresentable {}
+extension DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys : Swift.Equatable {}
+extension DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys : Swift.Hashable {}
+extension DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys : Swift.RawRepresentable {}

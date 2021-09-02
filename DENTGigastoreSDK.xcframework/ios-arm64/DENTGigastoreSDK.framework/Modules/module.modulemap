@@ -1,0 +1,4 @@
+framework module DENTGigastoreSDK {
+  header "DENTGigastoreSDK-Swift.h"
+  requires objc
+}
