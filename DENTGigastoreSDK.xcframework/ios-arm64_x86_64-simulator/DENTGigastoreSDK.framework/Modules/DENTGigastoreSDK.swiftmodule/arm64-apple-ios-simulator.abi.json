@@ -1,0 +1,4040 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DENTGigastoreSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "​GigastoreSession",
+        "printedName": "​GigastoreSession",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load(withSDKKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16DENTGigastoreSDK0021GigastoreSession_fcGiC4load10withSDKKeyySS_tF",
+            "mangledName": "$s16DENTGigastoreSDK0021GigastoreSession_fcGiC4load10withSDKKeyySS_tF",
+            "moduleName": "DENTGigastoreSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUserToken",
+            "printedName": "setUserToken(userToken:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16DENTGigastoreSDK0021GigastoreSession_fcGiC12setUserToken04userE0ySS_tF",
+            "mangledName": "$s16DENTGigastoreSDK0021GigastoreSession_fcGiC12setUserToken04userE0ySS_tF",
+            "moduleName": "DENTGigastoreSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isEsimCapable",
+            "printedName": "isEsimCapable(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16DENTGigastoreSDK0021GigastoreSession_fcGiC13isEsimCapable10completionyySbcSg_tF",
+            "mangledName": "$s16DENTGigastoreSDK0021GigastoreSession_fcGiC13isEsimCapable10completionyySbcSg_tF",
+            "moduleName": "DENTGigastoreSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "activateItem",
+            "printedName": "activateItem(inventoryItem:metaTag:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((DENTGigastoreSDK.GigastoreESIMProfile?, Swift.Error?) -> ()?)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile?, Swift.Error?) -> ()?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "()?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile?, Swift.Error?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "DENTGigastoreSDK.GigastoreESIMProfile?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "GigastoreESIMProfile",
+                                "printedName": "DENTGigastoreSDK.GigastoreESIMProfile",
+                                "usr": "c:@M@DENTGigastoreSDK@objc(cs)GigastoreESIMProfile"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Error?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Error",
+                                "printedName": "Swift.Error",
+                                "usr": "s:s5ErrorP"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16DENTGigastoreSDK0021GigastoreSession_fcGiC12activateItem09inventoryD07metaTag10completionySSSg_AHytSgAA20GigastoreESIMProfileCSg_s5Error_pSgtcSgtF",
+            "mangledName": "$s16DENTGigastoreSDK0021GigastoreSession_fcGiC12activateItem09inventoryD07metaTag10completionySSSg_AHytSgAA20GigastoreESIMProfileCSg_s5Error_pSgtcSgtF",
+            "moduleName": "DENTGigastoreSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "installProfile",
+            "printedName": "installProfile(profile:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GigastoreESIMProfile",
+                "printedName": "DENTGigastoreSDK.GigastoreESIMProfile",
+                "usr": "c:@M@DENTGigastoreSDK@objc(cs)GigastoreESIMProfile"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((DENTGigastoreSDK.GigastoreESIMProfile?, Swift.Error?) -> ()?)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile?, Swift.Error?) -> ()?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "()?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile?, Swift.Error?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "DENTGigastoreSDK.GigastoreESIMProfile?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "GigastoreESIMProfile",
+                                "printedName": "DENTGigastoreSDK.GigastoreESIMProfile",
+                                "usr": "c:@M@DENTGigastoreSDK@objc(cs)GigastoreESIMProfile"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Error?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Error",
+                                "printedName": "Swift.Error",
+                                "usr": "s:s5ErrorP"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16DENTGigastoreSDK0021GigastoreSession_fcGiC14installProfile7profile10completionyAA20GigastoreESIMProfileC_ytSgAHSg_s5Error_pSgtcSgtF",
+            "mangledName": "$s16DENTGigastoreSDK0021GigastoreSession_fcGiC14installProfile7profile10completionyAA20GigastoreESIMProfileC_ytSgAHSg_s5Error_pSgtcSgtF",
+            "moduleName": "DENTGigastoreSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAllProfiles",
+            "printedName": "getAllProfiles(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(([DENTGigastoreSDK.GigastoreESIMProfile]?, Swift.Error?) -> ()?)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([DENTGigastoreSDK.GigastoreESIMProfile]?, Swift.Error?) -> ()?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "()?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "([DENTGigastoreSDK.GigastoreESIMProfile]?, Swift.Error?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "[DENTGigastoreSDK.GigastoreESIMProfile]?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Array",
+                                "printedName": "[DENTGigastoreSDK.GigastoreESIMProfile]",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "GigastoreESIMProfile",
+                                    "printedName": "DENTGigastoreSDK.GigastoreESIMProfile",
+                                    "usr": "c:@M@DENTGigastoreSDK@objc(cs)GigastoreESIMProfile"
+                                  }
+                                ],
+                                "usr": "s:Sa"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Error?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Error",
+                                "printedName": "Swift.Error",
+                                "usr": "s:s5ErrorP"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16DENTGigastoreSDK0021GigastoreSession_fcGiC14getAllProfiles10completionyytSgSayAA20GigastoreESIMProfileCGSg_s5Error_pSgtcSg_tF",
+            "mangledName": "$s16DENTGigastoreSDK0021GigastoreSession_fcGiC14getAllProfiles10completionyytSgSayAA20GigastoreESIMProfileCGSg_s5Error_pSgtcSg_tF",
+            "moduleName": "DENTGigastoreSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16DENTGigastoreSDK0021GigastoreSession_fcGiC",
+        "mangledName": "$s16DENTGigastoreSDK0021GigastoreSession_fcGiC",
+        "moduleName": "DENTGigastoreSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DENTGigastoreSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DENTGigastoreSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DENTGigastoreSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DENTGigastoreSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DENTGigastoreSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DENTGigastoreSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GigastoreESIMProfile",
+        "printedName": "GigastoreESIMProfile",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "State",
+            "printedName": "State",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "released",
+                "printedName": "released",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile.State.Type) -> DENTGigastoreSDK.GigastoreESIMProfile.State",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "State",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State",
+                        "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "State",
+                            "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State",
+                            "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO8releasedyA2EmF",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC5StateO8releasedyA2EmF",
+                "moduleName": "DENTGigastoreSDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "installed",
+                "printedName": "installed",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile.State.Type) -> DENTGigastoreSDK.GigastoreESIMProfile.State",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "State",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State",
+                        "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "State",
+                            "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State",
+                            "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO9installedyA2EmF",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC5StateO9installedyA2EmF",
+                "moduleName": "DENTGigastoreSDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "available",
+                "printedName": "available",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile.State.Type) -> DENTGigastoreSDK.GigastoreESIMProfile.State",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "State",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State",
+                        "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "State",
+                            "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State",
+                            "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO9availableyA2EmF",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC5StateO9availableyA2EmF",
+                "moduleName": "DENTGigastoreSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "allocated",
+                "printedName": "allocated",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile.State.Type) -> DENTGigastoreSDK.GigastoreESIMProfile.State",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "State",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State",
+                        "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "State",
+                            "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State",
+                            "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO9allocatedyA2EmF",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC5StateO9allocatedyA2EmF",
+                "moduleName": "DENTGigastoreSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "linked",
+                "printedName": "linked",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile.State.Type) -> DENTGigastoreSDK.GigastoreESIMProfile.State",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "State",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State",
+                        "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "State",
+                            "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State",
+                            "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO6linkedyA2EmF",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC5StateO6linkedyA2EmF",
+                "moduleName": "DENTGigastoreSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "confirmed",
+                "printedName": "confirmed",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile.State.Type) -> DENTGigastoreSDK.GigastoreESIMProfile.State",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "State",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State",
+                        "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "State",
+                            "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State",
+                            "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO9confirmedyA2EmF",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC5StateO9confirmedyA2EmF",
+                "moduleName": "DENTGigastoreSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "unavailable",
+                "printedName": "unavailable",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile.State.Type) -> DENTGigastoreSDK.GigastoreESIMProfile.State",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "State",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State",
+                        "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "State",
+                            "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State",
+                            "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO11unavailableyA2EmF",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC5StateO11unavailableyA2EmF",
+                "moduleName": "DENTGigastoreSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "created",
+                "printedName": "created",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile.State.Type) -> DENTGigastoreSDK.GigastoreESIMProfile.State",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "State",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State",
+                        "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "State",
+                            "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State",
+                            "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO7createdyA2EmF",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC5StateO7createdyA2EmF",
+                "moduleName": "DENTGigastoreSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "disabled",
+                "printedName": "disabled",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile.State.Type) -> DENTGigastoreSDK.GigastoreESIMProfile.State",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "State",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State",
+                        "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "State",
+                            "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State",
+                            "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO8disabledyA2EmF",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC5StateO8disabledyA2EmF",
+                "moduleName": "DENTGigastoreSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "enabled",
+                "printedName": "enabled",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile.State.Type) -> DENTGigastoreSDK.GigastoreESIMProfile.State",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "State",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State",
+                        "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "State",
+                            "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State",
+                            "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO7enabledyA2EmF",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC5StateO7enabledyA2EmF",
+                "moduleName": "DENTGigastoreSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "deleted",
+                "printedName": "deleted",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile.State.Type) -> DENTGigastoreSDK.GigastoreESIMProfile.State",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "State",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State",
+                        "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "State",
+                            "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State",
+                            "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO7deletedyA2EmF",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC5StateO7deletedyA2EmF",
+                "moduleName": "DENTGigastoreSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "unknown",
+                "printedName": "unknown",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile.State.Type) -> DENTGigastoreSDK.GigastoreESIMProfile.State",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "State",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State",
+                        "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "State",
+                            "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State",
+                            "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO7unknownyA2EmF",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC5StateO7unknownyA2EmF",
+                "moduleName": "DENTGigastoreSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "quarantine",
+                "printedName": "quarantine",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile.State.Type) -> DENTGigastoreSDK.GigastoreESIMProfile.State",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "State",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State",
+                        "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "State",
+                            "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State",
+                            "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO10quarantineyA2EmF",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC5StateO10quarantineyA2EmF",
+                "moduleName": "DENTGigastoreSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "error",
+                "printedName": "error",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile.State.Type) -> DENTGigastoreSDK.GigastoreESIMProfile.State",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "State",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State",
+                        "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "State",
+                            "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State",
+                            "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO5erroryA2EmF",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC5StateO5erroryA2EmF",
+                "moduleName": "DENTGigastoreSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "downloaded",
+                "printedName": "downloaded",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile.State.Type) -> DENTGigastoreSDK.GigastoreESIMProfile.State",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "State",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State",
+                        "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "State",
+                            "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State",
+                            "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO10downloadedyA2EmF",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC5StateO10downloadedyA2EmF",
+                "moduleName": "DENTGigastoreSDK"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "State",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State",
+                        "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO8rawValueAESgSS_tcfc",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC5StateO8rawValueAESgSS_tcfc",
+                "moduleName": "DENTGigastoreSDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO8rawValueSSvp",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC5StateO8rawValueSSvp",
+                "moduleName": "DENTGigastoreSDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO8rawValueSSvg",
+                    "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC5StateO8rawValueSSvg",
+                    "moduleName": "DENTGigastoreSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO",
+            "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC5StateO",
+            "moduleName": "DENTGigastoreSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "CodingKeys",
+            "printedName": "CodingKeys",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "id",
+                "printedName": "id",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys.Type) -> DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys",
+                        "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys",
+                            "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO2idyA2EmF",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO2idyA2EmF",
+                "moduleName": "DENTGigastoreSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "iccid",
+                "printedName": "iccid",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys.Type) -> DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys",
+                        "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys",
+                            "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO5iccidyA2EmF",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO5iccidyA2EmF",
+                "moduleName": "DENTGigastoreSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "imsi",
+                "printedName": "imsi",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys.Type) -> DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys",
+                        "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys",
+                            "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO4imsiyA2EmF",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO4imsiyA2EmF",
+                "moduleName": "DENTGigastoreSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "eid",
+                "printedName": "eid",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys.Type) -> DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys",
+                        "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys",
+                            "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO3eidyA2EmF",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO3eidyA2EmF",
+                "moduleName": "DENTGigastoreSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "subscription",
+                "printedName": "subscription",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys.Type) -> DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys",
+                        "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys",
+                            "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO12subscriptionyA2EmF",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO12subscriptionyA2EmF",
+                "moduleName": "DENTGigastoreSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "state",
+                "printedName": "state",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys.Type) -> DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys",
+                        "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys",
+                            "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO5stateyA2EmF",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO5stateyA2EmF",
+                "moduleName": "DENTGigastoreSDK"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys",
+                        "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO8rawValueAESgSS_tcfc",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO8rawValueAESgSS_tcfc",
+                "moduleName": "DENTGigastoreSDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO8rawValueSSvp",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO8rawValueSSvp",
+                "moduleName": "DENTGigastoreSDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO8rawValueSSvg",
+                    "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO8rawValueSSvg",
+                    "moduleName": "DENTGigastoreSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "stringValue",
+                "printedName": "stringValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO11stringValueSSvp",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO11stringValueSSvp",
+                "moduleName": "DENTGigastoreSDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO11stringValueSSvg",
+                    "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO11stringValueSSvg",
+                    "moduleName": "DENTGigastoreSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(stringValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys",
+                        "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO11stringValueAESgSS_tcfc",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO11stringValueAESgSS_tcfc",
+                "moduleName": "DENTGigastoreSDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "intValue",
+                "printedName": "intValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO8intValueSiSgvp",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO8intValueSiSgvp",
+                "moduleName": "DENTGigastoreSDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Int?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO8intValueSiSgvg",
+                    "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO8intValueSiSgvg",
+                    "moduleName": "DENTGigastoreSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(intValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys",
+                        "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO8intValueAESgSi_tcfc",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO8intValueAESgSi_tcfc",
+                "moduleName": "DENTGigastoreSDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO",
+            "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO",
+            "moduleName": "DENTGigastoreSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CodingKey",
+                "printedName": "CodingKey",
+                "usr": "s:s9CodingKeyP",
+                "mangledName": "$ss9CodingKeyP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC2idSSSgvp",
+            "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC2idSSSgvp",
+            "moduleName": "DENTGigastoreSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC2idSSSgvg",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC2idSSSgvg",
+                "moduleName": "DENTGigastoreSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC2idSSSgvs",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC2idSSSgvs",
+                "moduleName": "DENTGigastoreSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC2idSSSgvM",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC2idSSSgvM",
+                "moduleName": "DENTGigastoreSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "state",
+            "printedName": "state",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "State",
+                    "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State",
+                    "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5stateAC5StateOSgvp",
+            "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC5stateAC5StateOSgvp",
+            "moduleName": "DENTGigastoreSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "State",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State",
+                        "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5stateAC5StateOSgvg",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC5stateAC5StateOSgvg",
+                "moduleName": "DENTGigastoreSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "State",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.State",
+                        "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5StateO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5stateAC5StateOSgvs",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC5stateAC5StateOSgvs",
+                "moduleName": "DENTGigastoreSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5stateAC5StateOSgvM",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC5stateAC5StateOSgvM",
+                "moduleName": "DENTGigastoreSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "imsi",
+            "printedName": "imsi",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC4imsiSSSgvp",
+            "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC4imsiSSSgvp",
+            "moduleName": "DENTGigastoreSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC4imsiSSSgvg",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC4imsiSSSgvg",
+                "moduleName": "DENTGigastoreSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC4imsiSSSgvs",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC4imsiSSSgvs",
+                "moduleName": "DENTGigastoreSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC4imsiSSSgvM",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC4imsiSSSgvM",
+                "moduleName": "DENTGigastoreSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "iccid",
+            "printedName": "iccid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5iccidSSSgvp",
+            "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC5iccidSSSgvp",
+            "moduleName": "DENTGigastoreSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5iccidSSSgvg",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC5iccidSSSgvg",
+                "moduleName": "DENTGigastoreSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5iccidSSSgvs",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC5iccidSSSgvs",
+                "moduleName": "DENTGigastoreSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC5iccidSSSgvM",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC5iccidSSSgvM",
+                "moduleName": "DENTGigastoreSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isValidEsimProfile",
+            "printedName": "isValidEsimProfile",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC18isValidEsimProfileSbvp",
+            "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC18isValidEsimProfileSbvp",
+            "moduleName": "DENTGigastoreSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC18isValidEsimProfileSbvg",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC18isValidEsimProfileSbvg",
+                "moduleName": "DENTGigastoreSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isInstalled",
+            "printedName": "isInstalled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC11isInstalledSbvp",
+            "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC11isInstalledSbvp",
+            "moduleName": "DENTGigastoreSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC11isInstalledSbvg",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC11isInstalledSbvg",
+                "moduleName": "DENTGigastoreSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GigastoreESIMProfile",
+                "printedName": "DENTGigastoreSDK.GigastoreESIMProfile",
+                "usr": "c:@M@DENTGigastoreSDK@objc(cs)GigastoreESIMProfile"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DENTGigastoreSDK@objc(cs)GigastoreESIMProfile(im)init",
+            "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileCACycfc",
+            "moduleName": "DENTGigastoreSDK",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GigastoreESIMProfile",
+                "printedName": "DENTGigastoreSDK.GigastoreESIMProfile",
+                "usr": "c:@M@DENTGigastoreSDK@objc(cs)GigastoreESIMProfile"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "DENTGigastoreSDK",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC6encode2toys7Encoder_p_tKF",
+            "moduleName": "DENTGigastoreSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DENTGigastoreSDK@objc(cs)GigastoreESIMProfile",
+        "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC",
+        "moduleName": "DENTGigastoreSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DENTGigastoreSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "DENTGigastoreSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DENTGigastoreSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "​Gigastore",
+        "printedName": "​Gigastore",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "​GigastoreSession",
+            "printedName": "DENTGigastoreSDK.​GigastoreSession",
+            "usr": "s:16DENTGigastoreSDK0021GigastoreSession_fcGiC"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:16DENTGigastoreSDK0014Gigastore_fGJdAA0021GigastoreSession_fcGiCvp",
+        "mangledName": "$s16DENTGigastoreSDK0014Gigastore_fGJdAA0021GigastoreSession_fcGiCvp",
+        "moduleName": "DENTGigastoreSDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "​GigastoreSession",
+                "printedName": "DENTGigastoreSDK.​GigastoreSession",
+                "usr": "s:16DENTGigastoreSDK0021GigastoreSession_fcGiC"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:16DENTGigastoreSDK0014Gigastore_fGJdAA0021GigastoreSession_fcGiCvg",
+            "mangledName": "$s16DENTGigastoreSDK0014Gigastore_fGJdAA0021GigastoreSession_fcGiCvg",
+            "moduleName": "DENTGigastoreSDK",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DENTGigastoreSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "DENTGigastoreSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DENTGigastoreSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DENTGigastoreSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DENTGigastoreSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DENTGigastoreSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DENTGigastoreSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DENTGigastoreSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DENTGigastoreSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DENTGigastoreSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DENTGigastoreSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DENTGigastoreSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "DENTGigastoreSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DENTGigastoreSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DENTGigastoreSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DENTGigastoreSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DENTGigastoreSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DENTGigastoreSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DENTGigastoreSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 205,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 250,
+      "length": 4,
+      "value": "1100"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 286,
+      "length": 4,
+      "value": "1200"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 326,
+      "length": 4,
+      "value": "1300"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 359,
+      "length": 4,
+      "value": "1400"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 397,
+      "length": 4,
+      "value": "1500"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 433,
+      "length": 4,
+      "value": "1600"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 486,
+      "length": 4,
+      "value": "2000"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 529,
+      "length": 4,
+      "value": "2100"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 573,
+      "length": 4,
+      "value": "2200"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 619,
+      "length": 4,
+      "value": "2300"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 665,
+      "length": 4,
+      "value": "2400"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 705,
+      "length": 4,
+      "value": "2500"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 753,
+      "length": 4,
+      "value": "2600"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 801,
+      "length": 4,
+      "value": "2700"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 847,
+      "length": 4,
+      "value": "2800"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 891,
+      "length": 4,
+      "value": "2900"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 940,
+      "length": 4,
+      "value": "3000"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 977,
+      "length": 5,
+      "value": "1009"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1013,
+      "length": 5,
+      "value": "1005"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1052,
+      "length": 2,
+      "value": "53"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 205,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 250,
+      "length": 4,
+      "value": "1100"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 286,
+      "length": 4,
+      "value": "1200"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 326,
+      "length": 4,
+      "value": "1300"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 359,
+      "length": 4,
+      "value": "1400"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 397,
+      "length": 4,
+      "value": "1500"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 433,
+      "length": 4,
+      "value": "1600"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 486,
+      "length": 4,
+      "value": "2000"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 529,
+      "length": 4,
+      "value": "2100"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 573,
+      "length": 4,
+      "value": "2200"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 619,
+      "length": 4,
+      "value": "2300"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 665,
+      "length": 4,
+      "value": "2400"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 705,
+      "length": 4,
+      "value": "2500"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 753,
+      "length": 4,
+      "value": "2600"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 801,
+      "length": 4,
+      "value": "2700"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 847,
+      "length": 4,
+      "value": "2800"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 891,
+      "length": 4,
+      "value": "2900"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 940,
+      "length": 4,
+      "value": "3000"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 977,
+      "length": 1,
+      "value": "1009"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1013,
+      "length": 1,
+      "value": "1005"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1052,
+      "length": 2,
+      "value": "53"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 205,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 250,
+      "length": 4,
+      "value": "1100"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 286,
+      "length": 4,
+      "value": "1200"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 326,
+      "length": 4,
+      "value": "1300"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 359,
+      "length": 4,
+      "value": "1400"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 397,
+      "length": 4,
+      "value": "1500"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 433,
+      "length": 4,
+      "value": "1600"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 486,
+      "length": 4,
+      "value": "2000"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 529,
+      "length": 4,
+      "value": "2100"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 573,
+      "length": 4,
+      "value": "2200"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 619,
+      "length": 4,
+      "value": "2300"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 665,
+      "length": 4,
+      "value": "2400"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 705,
+      "length": 4,
+      "value": "2500"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 753,
+      "length": 4,
+      "value": "2600"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 801,
+      "length": 4,
+      "value": "2700"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 847,
+      "length": 4,
+      "value": "2800"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 891,
+      "length": 4,
+      "value": "2900"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 940,
+      "length": 4,
+      "value": "3000"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 977,
+      "length": 1,
+      "value": "1009"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1013,
+      "length": 1,
+      "value": "1005"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1052,
+      "length": 2,
+      "value": "53"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 1126,
+      "length": 41,
+      "value": "\"An error has occurred. Please try again\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 1208,
+      "length": 37,
+      "value": "\"The SDK is not supported < iOS 12.1\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 1277,
+      "length": 41,
+      "value": "\"The SDK key is missing.DENTGigastoreSDK\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 1354,
+      "length": 44,
+      "value": "\"A request is in progress. Please try later\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 1427,
+      "length": 15,
+      "value": "\"Unknown error\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 1476,
+      "length": 32,
+      "value": "\"Could not decode error payload\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 1540,
+      "length": 25,
+      "value": "\"A response has an error\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 1614,
+      "length": 38,
+      "value": "\"The eSIM installation was successful\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 1691,
+      "length": 30,
+      "value": "\"The eSIM installation failed\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 1761,
+      "length": 54,
+      "value": "\"The eSIM installation finished with an unknown error\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 1866,
+      "length": 53,
+      "value": "\"eSIM functionality is not supported for your device\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 1961,
+      "length": 44,
+      "value": "\"eSIM is not supported for your iOS version\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 2041,
+      "length": 23,
+      "value": "\"No eSIM profile found\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 2108,
+      "length": 37,
+      "value": "\"The eSIM profile is not installable\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 2189,
+      "length": 39,
+      "value": "\"The eSIM profile is already installed\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 2270,
+      "length": 35,
+      "value": "\"The eSIM activation code is empty\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 2345,
+      "length": 34,
+      "value": "\"The eSIM subscription is missing\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 2424,
+      "length": 54,
+      "value": "\"The eSIM profile installation is already in progress\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 2511,
+      "length": 9,
+      "value": "\"offline\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 2551,
+      "length": 16,
+      "value": "\"connectionLost\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 2601,
+      "length": 19,
+      "value": "\"connectionAborted\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 1126,
+      "length": 41,
+      "value": "\"An error has occurred. Please try again\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 1208,
+      "length": 37,
+      "value": "\"The SDK is not supported < iOS 12.1\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 1277,
+      "length": 41,
+      "value": "\"The SDK key is missing.DENTGigastoreSDK\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 1354,
+      "length": 44,
+      "value": "\"A request is in progress. Please try later\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 1427,
+      "length": 15,
+      "value": "\"Unknown error\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 1476,
+      "length": 32,
+      "value": "\"Could not decode error payload\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 1540,
+      "length": 25,
+      "value": "\"A response has an error\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 1614,
+      "length": 38,
+      "value": "\"The eSIM installation was successful\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 1691,
+      "length": 30,
+      "value": "\"The eSIM installation failed\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 1761,
+      "length": 54,
+      "value": "\"The eSIM installation finished with an unknown error\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 1866,
+      "length": 53,
+      "value": "\"eSIM functionality is not supported for your device\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 1961,
+      "length": 44,
+      "value": "\"eSIM is not supported for your iOS version\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 2041,
+      "length": 23,
+      "value": "\"No eSIM profile found\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 2108,
+      "length": 37,
+      "value": "\"The eSIM profile is not installable\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 2189,
+      "length": 39,
+      "value": "\"The eSIM profile is already installed\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 2270,
+      "length": 35,
+      "value": "\"The eSIM activation code is empty\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 2345,
+      "length": 34,
+      "value": "\"The eSIM subscription is missing\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 2424,
+      "length": 54,
+      "value": "\"The eSIM profile installation is already in progress\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 2511,
+      "length": 9,
+      "value": "\"offline\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 2551,
+      "length": 16,
+      "value": "\"connectionLost\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 2601,
+      "length": 19,
+      "value": "\"connectionAborted\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Network\/Model\/RequestMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 174,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Network\/Model\/RequestMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 196,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Network\/Model\/RequestMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 218,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Network\/Model\/RequestMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 242,
+      "length": 8,
+      "value": "\"DELETE\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Network\/Model\/RequestMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 174,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Network\/Model\/RequestMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 196,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Network\/Model\/RequestMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 218,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Network\/Model\/RequestMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 242,
+      "length": 8,
+      "value": "\"DELETE\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Network\/Request\/EsimPostRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 304,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 304,
+      "length": 10,
+      "value": "\"RELEASED\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 427,
+      "length": 11,
+      "value": "\"INSTALLED\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 473,
+      "length": 11,
+      "value": "\"AVAILABLE\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 510,
+      "length": 11,
+      "value": "\"ALLOCATED\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 544,
+      "length": 8,
+      "value": "\"LINKED\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 578,
+      "length": 11,
+      "value": "\"CONFIRMED\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 617,
+      "length": 13,
+      "value": "\"UNAVAILABLE\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 654,
+      "length": 9,
+      "value": "\"CREATED\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 688,
+      "length": 10,
+      "value": "\"DISABLED\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 722,
+      "length": 9,
+      "value": "\"ENABLED\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 755,
+      "length": 9,
+      "value": "\"DELETED\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 788,
+      "length": 9,
+      "value": "\"UNKNOWN\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 824,
+      "length": 12,
+      "value": "\"QUARANTINE\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 858,
+      "length": 7,
+      "value": "\"ERROR\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 892,
+      "length": 12,
+      "value": "\"DOWNLOADED\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 304,
+      "length": 10,
+      "value": "\"RELEASED\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 427,
+      "length": 11,
+      "value": "\"INSTALLED\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 473,
+      "length": 11,
+      "value": "\"AVAILABLE\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 510,
+      "length": 11,
+      "value": "\"ALLOCATED\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 544,
+      "length": 8,
+      "value": "\"LINKED\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 578,
+      "length": 11,
+      "value": "\"CONFIRMED\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 617,
+      "length": 13,
+      "value": "\"UNAVAILABLE\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 654,
+      "length": 9,
+      "value": "\"CREATED\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 688,
+      "length": 10,
+      "value": "\"DISABLED\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 722,
+      "length": 9,
+      "value": "\"ENABLED\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 755,
+      "length": 9,
+      "value": "\"DELETED\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 788,
+      "length": 9,
+      "value": "\"UNKNOWN\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 824,
+      "length": 12,
+      "value": "\"QUARANTINE\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 858,
+      "length": 7,
+      "value": "\"ERROR\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "kind": "StringLiteral",
+      "offset": 892,
+      "length": 12,
+      "value": "\"DOWNLOADED\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 232,
+      "length": 8,
+      "value": "\"sdkKey\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 274,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 332,
+      "length": 21,
+      "value": "\"Device-Manufacturer\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 390,
+      "length": 14,
+      "value": "\"Device-Model\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 439,
+      "length": 12,
+      "value": "\"OS-Version\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 487,
+      "length": 13,
+      "value": "\"Device-Type\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 537,
+      "length": 8,
+      "value": "\"Locale\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 8800,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 217,
+      "length": 9,
+      "value": "\"Staging\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 251,
+      "length": 11,
+      "value": "\"Reference\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 288,
+      "length": 12,
+      "value": "\"Production\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 217,
+      "length": 9,
+      "value": "\"Staging\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 251,
+      "length": 11,
+      "value": "\"Reference\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 288,
+      "length": 12,
+      "value": "\"Production\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Manager\/EsimManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1366,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Network\/Request\/EsimGetRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 236,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
+      "kind": "StringLiteral",
+      "offset": 257,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
+      "kind": "StringLiteral",
+      "offset": 292,
+      "length": 7,
+      "value": "\"title\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
+      "kind": "StringLiteral",
+      "offset": 328,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
+      "kind": "StringLiteral",
+      "offset": 367,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
+      "kind": "StringLiteral",
+      "offset": 257,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
+      "kind": "StringLiteral",
+      "offset": 292,
+      "length": 7,
+      "value": "\"title\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
+      "kind": "StringLiteral",
+      "offset": 328,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
+      "kind": "StringLiteral",
+      "offset": 367,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
+      "kind": "StringLiteral",
+      "offset": 1188,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Manager\/SettingsManager.swift",
+      "kind": "StringLiteral",
+      "offset": 242,
+      "length": 16,
+      "value": "\"esimCapability\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Manager\/SettingsManager.swift",
+      "kind": "StringLiteral",
+      "offset": 287,
+      "length": 8,
+      "value": "\"sdkKey\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Manager\/SettingsManager.swift",
+      "kind": "StringLiteral",
+      "offset": 327,
+      "length": 11,
+      "value": "\"userToken\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Controller\/​GigastoreController.swift",
+      "kind": "StringLiteral",
+      "offset": 136,
+      "length": 22,
+      "value": "\"DENTGigastoreSDK.​GigastoreController\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/Result\/ProfileInstallationResult.swift",
+      "kind": "StringLiteral",
+      "offset": 234,
+      "length": 5,
+      "value": "\"DENTGigastoreSDK.Error\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/EsimCapability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 481,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/EsimCapability.swift",
+      "kind": "StringLiteral",
+      "offset": 609,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/EsimCapability.swift",
+      "kind": "StringLiteral",
+      "offset": 718,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/EsimCapability.swift",
+      "kind": "StringLiteral",
+      "offset": 836,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/EsimCapability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1187,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/EsimCapability.swift",
+      "kind": "StringLiteral",
+      "offset": 1249,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/EsimCapability.swift",
+      "kind": "StringLiteral",
+      "offset": 1290,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Models\/EsimCapability.swift",
+      "kind": "StringLiteral",
+      "offset": 1332,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/DeviceHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 211,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/ConfigEnvironment.swift",
+      "kind": "StringLiteral",
+      "offset": 214,
+      "length": 20,
+      "value": "\"CFBundleIdentifier\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/ConfigEnvironment.swift",
+      "kind": "StringLiteral",
+      "offset": 275,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/ConfigEnvironment.swift",
+      "kind": "StringLiteral",
+      "offset": 333,
+      "length": 17,
+      "value": "\"CFBundleVersion\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/ConfigEnvironment.swift",
+      "kind": "StringLiteral",
+      "offset": 382,
+      "length": 22,
+      "value": "\"EsimInstallationMode\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/ConfigEnvironment.swift",
+      "kind": "StringLiteral",
+      "offset": 431,
+      "length": 12,
+      "value": "\"ServerTier\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/ConfigEnvironment.swift",
+      "kind": "StringLiteral",
+      "offset": 214,
+      "length": 20,
+      "value": "\"CFBundleIdentifier\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/ConfigEnvironment.swift",
+      "kind": "StringLiteral",
+      "offset": 275,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/ConfigEnvironment.swift",
+      "kind": "StringLiteral",
+      "offset": 333,
+      "length": 17,
+      "value": "\"CFBundleVersion\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/ConfigEnvironment.swift",
+      "kind": "StringLiteral",
+      "offset": 382,
+      "length": 22,
+      "value": "\"EsimInstallationMode\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/ConfigEnvironment.swift",
+      "kind": "StringLiteral",
+      "offset": 431,
+      "length": 12,
+      "value": "\"ServerTier\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/ConfigEnvironment.swift",
+      "kind": "StringLiteral",
+      "offset": 648,
+      "length": 22,
+      "value": "\"Plist file not found\""
+    },
+    {
+      "filePath": "\/Users\/carlzeitler\/gigastore-ios-sdk-dev\/Source\/Helper\/ErrorHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 140,
+      "length": 29,
+      "value": "\"DENTGigastoreSDKErrorDomain\""
+    }
+  ]
+}

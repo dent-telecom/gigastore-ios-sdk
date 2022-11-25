@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name 		= 'DENTGigastoreSDK'
-  s.version 		= '1.0.0'
+  s.version 		= '1.0.1'
   s.license 		= { :type => 'Commercial', :text => 'Please refer to https://github.com/dentwireless/gigastore-ios-sdk/blob/master/LICENSE'}
   s.summary 		= 'SDK for installing DENT Gigastore eSIMs in third party apps'
   s.homepage		= 'https://dent.giga.store'
