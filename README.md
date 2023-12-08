@@ -320,7 +320,7 @@ Only HTTPS server URLs are allowed.
 
 ### 1.0.1
 
-- Exposed iccid of profile
+- Expose iccid
 
 &nbsp;
 &nbsp;
