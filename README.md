@@ -322,6 +322,14 @@ Only HTTPS server URLs are allowed.
 
 - Expose iccid
 
+### 1.0.2
+
+- Test mode
+
+### 1.0.3
+
+- Added "Privacy Manifest File"
+
 &nbsp;
 &nbsp;
 ## Credits

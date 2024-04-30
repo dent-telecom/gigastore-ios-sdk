@@ -6,59 +6,63 @@
 	<dict>
 		<key>Headers/DENTGigastoreSDK-Swift.h</key>
 		<data>
-		DVMWwYjXN5vgxNnjPCqCy98kAiI=
+		9k9DcICmP3KnpEN4OturoqUPthE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		DpUiq+FylKYgVJVIttoiGY9SeM4=
+		HwmFViNd1wJng3UcNB2zwNyq8JE=
 		</data>
 		<key>Modules/DENTGigastoreSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		OlN2n+AicbdqX9sNDl7+lS5qDak=
+		VgcTdhkgQSJ5QtV/aQxUzd4k8LQ=
 		</data>
 		<key>Modules/DENTGigastoreSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		PtUkwVKB6PdM6Tc9gD8KfWrtfMw=
+		C6wnKuLMnNVSDVzBrPYNK4Ysj0s=
 		</data>
 		<key>Modules/DENTGigastoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		zGpFMUqkdLl/JOVNcK4NplgVYsA=
+		DH6MsBDEj/doLjDYp4n8hJc+Oa4=
 		</data>
 		<key>Modules/DENTGigastoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		PtUkwVKB6PdM6Tc9gD8KfWrtfMw=
+		C6wnKuLMnNVSDVzBrPYNK4Ysj0s=
 		</data>
 		<key>Modules/DENTGigastoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		VDXZGmwqV++Z+AKZag+GLgiHiMg=
+		KtA7mkL4H9TFNYvI3HwYLJoyPog=
 		</data>
 		<key>Modules/DENTGigastoreSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		OlN2n+AicbdqX9sNDl7+lS5qDak=
+		VgcTdhkgQSJ5QtV/aQxUzd4k8LQ=
 		</data>
 		<key>Modules/DENTGigastoreSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		jTJqFhpx8bxT0F6a9XoauVNvNok=
+		2dGgu5isu4rORXxpb33sWCkXrhI=
 		</data>
 		<key>Modules/DENTGigastoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		u1lflodPFt5Mgd5nk1u0sIqiYks=
+		mOlojLt0bl0O9RMoPvlXpTs9MRI=
 		</data>
 		<key>Modules/DENTGigastoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		jTJqFhpx8bxT0F6a9XoauVNvNok=
+		2dGgu5isu4rORXxpb33sWCkXrhI=
 		</data>
 		<key>Modules/DENTGigastoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		KSxQRVlvj6Hgo3mVzHd/8gPWGfQ=
+		7OIjCFH4YGgsq8SSxd56IAl0jck=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		8H8QQtadjLo4ogF8zV/4xFSyd08=
 		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		PJa+CWhAbna30q2a6MHUGBB3Jy4=
+		</data>
 		<key>README.md</key>
 		<data>
-		JXRg3j2AwKA89BH2vpanmXt3hMU=
+		5bqF1f+K9z9XkqrUiuHsT3QwFtI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -67,77 +71,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			I6RXf/kv70JAKMdOAmrgJ4k1OKMTTaoNnj0vfvHyCYY=
+			0S9vMCLZuaKdmRgyWhqYLAFks9VOYiI+R7der9zzFNY=
 			</data>
 		</dict>
 		<key>Modules/DENTGigastoreSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+wKGw1N8deC40cNj8k0P3v+loo8aC1MeLHpNFIKQ3Pw=
+			9Bw1HjjP+cvXLYgxnbGE8y0rTGaMNwg+7V0+dtoVFng=
 			</data>
 		</dict>
 		<key>Modules/DENTGigastoreSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mNkxBnfVY0MqXAwSpdrkdaZA5jVQP6f+L9wo4EbNIMc=
+			51jpYtSUZljpmXXnQc5U9XYKbl5o+tvAvxhGHU5IuaA=
 			</data>
 		</dict>
 		<key>Modules/DENTGigastoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yIUazB1ozNzuoC6JykYQebydVApDcN70UNgQBZ5YAYc=
+			j72PP9bC8nd2zBMkAI/My0x1Sa0VcsIPQ+YTERESg6U=
 			</data>
 		</dict>
 		<key>Modules/DENTGigastoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mNkxBnfVY0MqXAwSpdrkdaZA5jVQP6f+L9wo4EbNIMc=
+			51jpYtSUZljpmXXnQc5U9XYKbl5o+tvAvxhGHU5IuaA=
 			</data>
 		</dict>
 		<key>Modules/DENTGigastoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HyAYMM7TEPMDcysZM3jI0/ofKR0l9NHg5xyDmk0H6HQ=
+			wzOlGo7pILRSXX3cNR15cwisnIkwdOsvf0lqMKN2BS0=
 			</data>
 		</dict>
 		<key>Modules/DENTGigastoreSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+wKGw1N8deC40cNj8k0P3v+loo8aC1MeLHpNFIKQ3Pw=
+			9Bw1HjjP+cvXLYgxnbGE8y0rTGaMNwg+7V0+dtoVFng=
 			</data>
 		</dict>
 		<key>Modules/DENTGigastoreSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mO+L48Le0kag2AFPzbYbljP2+JycrqlYRSKe3s4sDDw=
+			eYQnMVE7qzeAtKRsit57yaKFf3TluzI+6YKkkeDPK3E=
 			</data>
 		</dict>
 		<key>Modules/DENTGigastoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iqW3jErSZ+Kt2fGHHkE13fOFBn07asYxIV//nMemRRw=
+			//y+ddNYJh3LcqNdelzWKotBWUIhYTBkUicLvPjpG5I=
 			</data>
 		</dict>
 		<key>Modules/DENTGigastoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mO+L48Le0kag2AFPzbYbljP2+JycrqlYRSKe3s4sDDw=
+			eYQnMVE7qzeAtKRsit57yaKFf3TluzI+6YKkkeDPK3E=
 			</data>
 		</dict>
 		<key>Modules/DENTGigastoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			16Ea4TsqqlIlDIlNyY8bU4D1V7fhW0q+dAFZMnAuDWU=
+			iVFACLIxVfKNAE5dvMTvLtTHqpb8/n7R0p9qfyxDG5Y=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -147,11 +151,18 @@
 			jA2kOwF7/bGazYgrcpJuoKMHl5PwxrahqSIK6UqI/DE=
 			</data>
 		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			enZmu88aZ4CyvRV3GycP8VmYXIxBD7lEYXAahFP2510=
+			</data>
+		</dict>
 		<key>README.md</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lNuqN52BD41dQfs87wRDQStJK+m5Vfw/Wf8Psf19CHM=
+			t6NGgXqIHfiiuaZvTo6QNfAphxTG9yAwnBTgoCbdXHc=
 			</data>
 		</dict>
 	</dict>
