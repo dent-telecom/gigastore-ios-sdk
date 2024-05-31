@@ -330,6 +330,10 @@ Only HTTPS server URLs are allowed.
 
 - Added "Privacy Manifest File"
 
+### 1.0.4
+
+- Fixed completion handler issue
+
 &nbsp;
 &nbsp;
 ## Credits
