@@ -62,7 +62,7 @@ platform :ios, '11.0'
 
 target 'TARGET_NAME' do
     pod 'DENTGigastoreSDK', :git => 'https://github.com/dentwireless/gigastore-ios-sdk.git', 
-                          :tag => '1.0.1'
+                          :tag => '1.0.4'
 end
 
 ```
@@ -79,7 +79,7 @@ pod install
 In your Cartfile:
 
 ```ruby
-binary "https://camelapi.io/ios-sdk/release/DENTGigastoreSDK.json" ~> 1.0.1
+binary "https://camelapi.io/ios-sdk/release/DENTGigastoreSDK.json" ~> 1.0.4
 
 ```
 
@@ -93,7 +93,7 @@ Add the following to your `dependencies` value of your `Package.swift` file.
 dependencies: [
   .package(
     url: "https://github.com/dentwireless/gigastore-ios-sdk.git",
-    from: "1.0.1")
+    from: "1.0.4")
   )
 ]
 
@@ -329,6 +329,10 @@ Only HTTPS server URLs are allowed.
 ### 1.0.3
 
 - Added "Privacy Manifest File"
+
+### 1.0.4
+
+- Bugfix
 
 &nbsp;
 &nbsp;
