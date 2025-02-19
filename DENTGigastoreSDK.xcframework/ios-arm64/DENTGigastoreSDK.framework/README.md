@@ -6,7 +6,8 @@
 SDK for installing DENT Gigastore eSIMs in third party apps.
 
 ### Availability
-DENT Gigastore SDK is currently in closed beta for iOS. You can request access [here](https://docs.google.com/forms/d/e/1FAIpQLSeh5PnexP1y6toBaN856_KkCM1OuWW-5qm3Yu6R-Z15abDFfg/viewform).
+To download a DENT eSIM in your app through Apple’s eSIM API, DENT needs to register your app.
+To start this process, follow the instructions here: https://docs.giga.store/ios/enable-direct-installation
 
 &nbsp;
 &nbsp;
@@ -15,9 +16,14 @@ DENT Gigastore SDK for iOS
 
 ### Prerequisites
 You need a [DENT Gigastore](https://dent.giga.store/) account to use the SDK.
+
+To download a DENT eSIM in your app through Apple’s eSIM API, DENT needs to register your app.
+To start this process, follow the instructions here: https://docs.giga.store/ios/enable-direct-installation
+
 Make sure that your Gigastore inventory is filled up. Using this SDK you can pick (activate) an eSIM from your inventory and install eSIM profiles through your app on a user's device.
 &nbsp;
-For the initialization, you need an SDK Key. For now please contact us.
+
+For the initialization, you need an SDK Key. You can find it in the Gigastore portal: https://dent.giga.store/#/sdk/ios-sdk .
 
 ### Technical Requirements
 
@@ -29,6 +35,7 @@ For the initialization, you need an SDK Key. For now please contact us.
 
 ### Supported devices
 
+- iPhone 16, iPhone 16 Plus, iPhone 16 Pro and iPhone 16 Pro Max
 - iPhone 15, iPhone 15 Plus, iPhone 15 Pro and iPhone 15 Pro Max
 - iPhone 14, iPhone 14 Plus, iPhone 14 Pro and iPhone 14 Pro Max
 - iPhone 13, iPhone 13 Pro, iPhone 13 Pro Max and iPhone 13 Mini
@@ -42,12 +49,9 @@ For the initialization, you need an SDK Key. For now please contact us.
 ## Download SDK
 You can download the SDK using one of the supported package managers.
 
-> The SDK is currently in private beta and will be available soon.
-
 ### PackageManager
 
-> Please set in the "Build phase" the Run script. If this is not set, your Info.plist cannot be provided with the correct information. Please also consider that the `<TargetName>.entitlements` have to be extended.
-No eSIM profiles could then be installed on the device via the DENTGigastoreSDK.
+> After installing via Package Manager, follow the instructions in "Add Build Phase"
 
 ### CocoaPods
 
@@ -61,8 +65,8 @@ use_frameworks!
 platform :ios, '11.0'
 
 target 'TARGET_NAME' do
-    pod 'DENTGigastoreSDK', :git => 'https://github.com/dentwireless/gigastore-ios-sdk.git', 
-                          :tag => '1.0.4'
+    pod 'DENTGigastoreSDK', :git => 'https://github.com/dent-telecom/gigastore-ios-sdk.git', 
+                          :tag => '1.1.0'
 end
 
 ```
@@ -79,7 +83,7 @@ pod install
 In your Cartfile:
 
 ```ruby
-binary "https://camelapi.io/ios-sdk/release/DENTGigastoreSDK.json" ~> 1.0.4
+binary "https://camelapi.io/ios-sdk/release/DENTGigastoreSDK.json" ~> 1.1.0
 
 ```
 
@@ -92,8 +96,8 @@ Add the following to your `dependencies` value of your `Package.swift` file.
 ```swift
 dependencies: [
   .package(
-    url: "https://github.com/dentwireless/gigastore-ios-sdk.git",
-    from: "1.0.4")
+    url: "https://github.com/dent-telecom/gigastore-ios-sdk.git",
+    from: "1.1.0")
   )
 ]
 
@@ -112,7 +116,7 @@ dependencies: [
 - Add DENTGigastoreSDK as a git [submodule](https://git-scm.com/docs/git-submodule) by running the following command:
 
 ```ruby
-  $ git submodule add https://github.com/dentwireless/gigastore-ios-sdk.git
+  $ git submodule add https://github.com/dent-telecom/gigastore-ios-sdk.git
 ```
   
 - Or download the `DENTGigastoreSDK.xcframework` manually
@@ -210,25 +214,21 @@ If a "false" is returned from the query despite the following criteria being met
 - You have added the run script for your Info.plist and your `<TargetName>.entitlements`
 
 Then there is likely another problem.
-If this problem persists, please contact support@dentwireless.com
+If this problem persists, please contact support@denttelecom.io
 
-### Activate Inventory Item
-The `activateItem` can be used to activate one item from your DENT Gigastore inventory and provide an installable eSIM profile. 
-Check the inventory details to find the matching Inventory IDs.
-&nbsp;
-You can add additional information in the metatag parameter. This information will be stored in Gigastore and is available in the "Sales History" section.
-
-> To verify the device and user, our server will send a WebHook ActivationRequest including the passed parameters to your server. 
+### Fetch the eSIM Profile
+The `getProfile` function can be used to fetch an eSIM profile by profileUID.
+Once fetched, this profile can be installed using the installProfile method. 
+The profileUID will be provided by the API: https://docs.giga.store/api/first-package.
 
 The method will return a profile you can install in the next step using Install Profile.
+&nbsp;
 
 ```swift
-let inventoryItemId = "1GB"
-let metaTag = "additional information for you"
+let profileUID = "12345-abcde-fgh" // from API
 
-Gigastore.activateItem(inventoryItem: inventoryItemId,
-                             metaTag: metaTag
-                          completion: { (profile, error) in
+Gigastore.getProfile(profileUID: profileUID,
+                     completion: { (profile, error) in
     print("PreparedProfile: \(profile), error: \(error)")
 })
 
@@ -254,19 +254,10 @@ This function returns either the installed profile or an error object containing
 
 &nbsp;
 &nbsp;
-## All Profiles
-The `getAllProfiles` function can be used to return all eSIM profiles created for the device or an error.
 
-```swift
-Gigastore.getAllProfiles(completion: { (profiles, error) in
-    print("Profiles: \(profiles ?? [])")
-    print("Error: \(error)")
-})
 
 ```
 
-&nbsp;
-&nbsp;
 ## Webhook
 To approve an eSIM activation you need to implement this callback on your server. If the client is allowed to install an eSIM a successful response is expected from our backend. DENT is sending the webhook as POST request.
 
@@ -334,8 +325,13 @@ Only HTTPS server URLs are allowed.
 
 - Bugfix
 
+### 1.1.0
+
+- Introducing the getProfile method and deprecated existing flows
+- Changed logic for test mode in the load function
+
 &nbsp;
 &nbsp;
 ## Credits
 
-DENTGigastoreSDK is owned and maintained by [DENT Wireless Limited](https://www.dentwireless.com).
+DENTGigastoreSDK is owned and maintained by [DENT Telecom GmbH](https://www.denttelecom.io).

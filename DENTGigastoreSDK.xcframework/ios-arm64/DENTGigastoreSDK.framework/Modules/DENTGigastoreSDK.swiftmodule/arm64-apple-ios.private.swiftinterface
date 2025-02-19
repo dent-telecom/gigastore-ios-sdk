@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DENTGigastoreSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import CoreTelephony
@@ -10,15 +10,19 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 public typealias GigastoreDeviceIsEsimCapableCompletion = (Swift.Bool) -> Swift.Void
-public typealias GigastoreHandleActivateItemCompletion = (_ profile: DENTGigastoreSDK.GigastoreESIMProfile?, _ error: (any Swift.Error)?) -> Swift.Void?
+public typealias GigastoreHandleGetProfileCompletion = (_ profile: DENTGigastoreSDK.GigastoreESIMProfile?, _ error: (any Swift.Error)?) -> Swift.Void?
 public typealias GigastoreHandleInstallProfileCompletion = (_ profile: DENTGigastoreSDK.GigastoreESIMProfile?, _ error: (any Swift.Error)?) -> Swift.Void?
+public typealias GigastoreHandleActivateItemCompletion = (_ profile: DENTGigastoreSDK.GigastoreESIMProfile?, _ error: (any Swift.Error)?) -> Swift.Void?
 public typealias GigastoreHandleAllProfilesCompletion = (_ profiles: [DENTGigastoreSDK.GigastoreESIMProfile]?, _ error: (any Swift.Error)?) -> Swift.Void?
 @_hasMissingDesignatedInitializers public class ​GigastoreSession {
   public func load(withSDKKey: Swift.String, testMode: Swift.Bool = false)
   public func setUserToken(userToken: Swift.String)
   public func isEsimCapable(completion: DENTGigastoreSDK.GigastoreDeviceIsEsimCapableCompletion? = nil)
+  public func getProfile(profileUID: Swift.String, completion: DENTGigastoreSDK.GigastoreHandleGetProfileCompletion? = nil)
+  @available(*, deprecated, message: "We are going to remove this method. Use the Gigastore API to activate an item instead.")
   public func activateItem(inventoryItem: Swift.String?, metaTag: Swift.String?, completion: DENTGigastoreSDK.GigastoreHandleActivateItemCompletion? = nil)
   public func installProfile(profile: DENTGigastoreSDK.GigastoreESIMProfile, completion: DENTGigastoreSDK.GigastoreHandleInstallProfileCompletion? = nil)
+  @available(*, deprecated, message: "We are going to remove this method. Use the Gigastore API to fetch the profiles of a user instead.")
   public func getAllProfiles(completion: DENTGigastoreSDK.GigastoreHandleAllProfilesCompletion? = nil)
   @objc deinit
 }
