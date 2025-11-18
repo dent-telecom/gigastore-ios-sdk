@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "DENTGigastoreSDK",
+    "printedName": "DENTGigastoreSDK",
     "children": [
       {
         "kind": "Import",
@@ -147,12 +147,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((DENTGigastoreSDK.GigastoreESIMProfile?, Swift.Error?) -> ()?)?",
+                "printedName": "((DENTGigastoreSDK.GigastoreESIMProfile?, (any Swift.Error)?) -> ()?)?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile?, Swift.Error?) -> ()?",
+                    "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile?, (any Swift.Error)?) -> ()?",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -170,7 +170,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile?, Swift.Error?)",
+                        "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile?, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -189,12 +189,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -260,12 +260,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((DENTGigastoreSDK.GigastoreESIMProfile?, Swift.Error?) -> ()?)?",
+                "printedName": "((DENTGigastoreSDK.GigastoreESIMProfile?, (any Swift.Error)?) -> ()?)?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile?, Swift.Error?) -> ()?",
+                    "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile?, (any Swift.Error)?) -> ()?",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -283,7 +283,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile?, Swift.Error?)",
+                        "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile?, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -302,12 +302,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -353,12 +353,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((DENTGigastoreSDK.GigastoreESIMProfile?, Swift.Error?) -> ()?)?",
+                "printedName": "((DENTGigastoreSDK.GigastoreESIMProfile?, (any Swift.Error)?) -> ()?)?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile?, Swift.Error?) -> ()?",
+                    "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile?, (any Swift.Error)?) -> ()?",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -376,7 +376,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile?, Swift.Error?)",
+                        "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile?, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -395,12 +395,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -438,12 +438,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "(([DENTGigastoreSDK.GigastoreESIMProfile]?, Swift.Error?) -> ()?)?",
+                "printedName": "(([DENTGigastoreSDK.GigastoreESIMProfile]?, (any Swift.Error)?) -> ()?)?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "([DENTGigastoreSDK.GigastoreESIMProfile]?, Swift.Error?) -> ()?",
+                    "printedName": "([DENTGigastoreSDK.GigastoreESIMProfile]?, (any Swift.Error)?) -> ()?",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -461,7 +461,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "([DENTGigastoreSDK.GigastoreESIMProfile]?, Swift.Error?)",
+                        "printedName": "([DENTGigastoreSDK.GigastoreESIMProfile]?, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -488,12 +488,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -528,7 +528,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -1245,6 +1261,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -1523,6 +1553,43 @@
                 "moduleName": "DENTGigastoreSDK"
               },
               {
+                "kind": "Var",
+                "name": "supportedCountries",
+                "printedName": "supportedCountries",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys.Type) -> DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys",
+                        "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "DENTGigastoreSDK.GigastoreESIMProfile.CodingKeys",
+                            "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO18supportedCountriesyA2EmF",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC10CodingKeysO18supportedCountriesyA2EmF",
+                "moduleName": "DENTGigastoreSDK"
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init(rawValue:)",
@@ -1766,6 +1833,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -1827,6 +1908,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
               }
             ]
           },
@@ -2273,6 +2361,140 @@
           },
           {
             "kind": "Var",
+            "name": "supportedCountries",
+            "printedName": "supportedCountries",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC18supportedCountriesSaySSGSgvp",
+            "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC18supportedCountriesSaySSGSgvp",
+            "moduleName": "DENTGigastoreSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC18supportedCountriesSaySSGSgvg",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC18supportedCountriesSaySSGSgvg",
+                "moduleName": "DENTGigastoreSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC18supportedCountriesSaySSGSgvs",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC18supportedCountriesSaySSGSgvs",
+                "moduleName": "DENTGigastoreSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16DENTGigastoreSDK20GigastoreESIMProfileC18supportedCountriesSaySSGSgvM",
+                "mangledName": "$s16DENTGigastoreSDK20GigastoreESIMProfileC18supportedCountriesSaySSGSgvM",
+                "moduleName": "DENTGigastoreSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "isValidEsimProfile",
             "printedName": "isValidEsimProfile",
             "children": [
@@ -2392,7 +2614,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -2420,7 +2642,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -2460,6 +2682,20 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -2784,2664 +3020,739 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Session\/​GigastoreSession.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Session\/​GigastoreSession.swift",
       "kind": "BooleanLiteral",
-      "offset": 1405,
+      "offset": 1400,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Session\/​GigastoreSession.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1512,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/NetworkService.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2113,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/NetworkService.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3068,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/NetworkService.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3967,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/NetworkService.swift",
-      "kind": "StringLiteral",
-      "offset": 4951,
-      "length": 32,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/NetworkService.swift",
-      "kind": "StringLiteral",
-      "offset": 4965,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/NetworkService.swift",
-      "kind": "StringLiteral",
-      "offset": 4982,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/NetworkService.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5321,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/NetworkService.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5355,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/NetworkService.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5453,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/NetworkService.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5595,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/NetworkService.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5629,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/NetworkService.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5668,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "IntegerLiteral",
       "offset": 205,
       "length": 4,
       "value": "1000"
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "IntegerLiteral",
       "offset": 250,
       "length": 4,
       "value": "1100"
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "IntegerLiteral",
       "offset": 286,
       "length": 4,
       "value": "1200"
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "IntegerLiteral",
       "offset": 326,
       "length": 4,
       "value": "1300"
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "IntegerLiteral",
       "offset": 359,
       "length": 4,
       "value": "1400"
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "IntegerLiteral",
       "offset": 397,
       "length": 4,
       "value": "1500"
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "IntegerLiteral",
       "offset": 433,
       "length": 4,
       "value": "1600"
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "IntegerLiteral",
       "offset": 486,
       "length": 4,
       "value": "2000"
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "IntegerLiteral",
       "offset": 529,
       "length": 4,
       "value": "2100"
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "IntegerLiteral",
-      "offset": 573,
+      "offset": 574,
+      "length": 4,
+      "value": "2150"
+    },
+    {
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 618,
       "length": 4,
       "value": "2200"
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "IntegerLiteral",
-      "offset": 619,
+      "offset": 664,
       "length": 4,
       "value": "2300"
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "IntegerLiteral",
-      "offset": 665,
+      "offset": 710,
       "length": 4,
       "value": "2400"
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "IntegerLiteral",
-      "offset": 705,
+      "offset": 750,
       "length": 4,
       "value": "2500"
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "IntegerLiteral",
-      "offset": 753,
+      "offset": 798,
       "length": 4,
       "value": "2600"
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "IntegerLiteral",
-      "offset": 801,
+      "offset": 846,
       "length": 4,
       "value": "2700"
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "IntegerLiteral",
-      "offset": 847,
+      "offset": 892,
       "length": 4,
       "value": "2800"
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "IntegerLiteral",
-      "offset": 891,
+      "offset": 936,
       "length": 4,
       "value": "2900"
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "IntegerLiteral",
-      "offset": 940,
+      "offset": 985,
       "length": 4,
       "value": "3000"
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "IntegerLiteral",
-      "offset": 977,
+      "offset": 1022,
       "length": 5,
       "value": "-1009"
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1013,
+      "offset": 1058,
       "length": 5,
       "value": "-1005"
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1052,
+      "offset": 1097,
       "length": 2,
       "value": "53"
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 205,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 250,
-      "length": 4,
-      "value": "1100"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 286,
-      "length": 4,
-      "value": "1200"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 326,
-      "length": 4,
-      "value": "1300"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 359,
-      "length": 4,
-      "value": "1400"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 397,
-      "length": 4,
-      "value": "1500"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 433,
-      "length": 4,
-      "value": "1600"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 486,
-      "length": 4,
-      "value": "2000"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 529,
-      "length": 4,
-      "value": "2100"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 573,
-      "length": 4,
-      "value": "2200"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 619,
-      "length": 4,
-      "value": "2300"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 665,
-      "length": 4,
-      "value": "2400"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 705,
-      "length": 4,
-      "value": "2500"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 753,
-      "length": 4,
-      "value": "2600"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 801,
-      "length": 4,
-      "value": "2700"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 847,
-      "length": 4,
-      "value": "2800"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 891,
-      "length": 4,
-      "value": "2900"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 940,
-      "length": 4,
-      "value": "3000"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 977,
-      "length": 1,
-      "value": "-1009"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1013,
-      "length": 1,
-      "value": "-1005"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1052,
-      "length": 2,
-      "value": "53"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 205,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 250,
-      "length": 4,
-      "value": "1100"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 286,
-      "length": 4,
-      "value": "1200"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 326,
-      "length": 4,
-      "value": "1300"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 359,
-      "length": 4,
-      "value": "1400"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 397,
-      "length": 4,
-      "value": "1500"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 433,
-      "length": 4,
-      "value": "1600"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 486,
-      "length": 4,
-      "value": "2000"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 529,
-      "length": 4,
-      "value": "2100"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 573,
-      "length": 4,
-      "value": "2200"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 619,
-      "length": 4,
-      "value": "2300"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 665,
-      "length": 4,
-      "value": "2400"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 705,
-      "length": 4,
-      "value": "2500"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 753,
-      "length": 4,
-      "value": "2600"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 801,
-      "length": 4,
-      "value": "2700"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 847,
-      "length": 4,
-      "value": "2800"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 891,
-      "length": 4,
-      "value": "2900"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 940,
-      "length": 4,
-      "value": "3000"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 977,
-      "length": 1,
-      "value": "-1009"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1013,
-      "length": 1,
-      "value": "-1005"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1052,
-      "length": 2,
-      "value": "53"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "StringLiteral",
-      "offset": 1126,
+      "offset": 1171,
       "length": 41,
       "value": "\"An error has occurred. Please try again\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "StringLiteral",
-      "offset": 1208,
+      "offset": 1253,
       "length": 37,
       "value": "\"The SDK is not supported < iOS 12.1\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "StringLiteral",
-      "offset": 1277,
-      "length": 41,
-      "value": "\"The SDK key is missing.DENTGigastoreSDK\""
+      "offset": 1322,
+      "length": 25,
+      "value": "\"The SDK key is missing.\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "StringLiteral",
-      "offset": 1354,
+      "offset": 1383,
       "length": 44,
       "value": "\"A request is in progress. Please try later\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "StringLiteral",
-      "offset": 1427,
+      "offset": 1456,
       "length": 15,
       "value": "\"Unknown error\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "StringLiteral",
-      "offset": 1476,
+      "offset": 1505,
       "length": 32,
       "value": "\"Could not decode error payload\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "StringLiteral",
-      "offset": 1540,
+      "offset": 1569,
       "length": 25,
       "value": "\"A response has an error\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "StringLiteral",
-      "offset": 1614,
+      "offset": 1643,
       "length": 38,
       "value": "\"The eSIM installation was successful\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "StringLiteral",
-      "offset": 1691,
+      "offset": 1720,
       "length": 30,
       "value": "\"The eSIM installation failed\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "StringLiteral",
-      "offset": 1761,
+      "offset": 1791,
+      "length": 36,
+      "value": "\"The eSIM installation was canceled\""
+    },
+    {
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "kind": "StringLiteral",
+      "offset": 1867,
       "length": 54,
       "value": "\"The eSIM installation finished with an unknown error\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "StringLiteral",
-      "offset": 1866,
+      "offset": 1972,
       "length": 53,
       "value": "\"eSIM functionality is not supported for your device\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "StringLiteral",
-      "offset": 1961,
+      "offset": 2067,
       "length": 44,
       "value": "\"eSIM is not supported for your iOS version\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "StringLiteral",
-      "offset": 2041,
+      "offset": 2147,
       "length": 23,
       "value": "\"No eSIM profile found\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "StringLiteral",
-      "offset": 2108,
+      "offset": 2214,
       "length": 37,
       "value": "\"The eSIM profile is not installable\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "StringLiteral",
-      "offset": 2189,
+      "offset": 2295,
       "length": 39,
       "value": "\"The eSIM profile is already installed\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "StringLiteral",
-      "offset": 2270,
+      "offset": 2376,
       "length": 35,
       "value": "\"The eSIM activation code is empty\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "StringLiteral",
-      "offset": 2345,
+      "offset": 2451,
       "length": 34,
       "value": "\"The eSIM subscription is missing\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "StringLiteral",
-      "offset": 2424,
+      "offset": 2530,
       "length": 54,
       "value": "\"The eSIM profile installation is already in progress\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "StringLiteral",
-      "offset": 2511,
+      "offset": 2617,
       "length": 9,
       "value": "\"offline\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "StringLiteral",
-      "offset": 2551,
+      "offset": 2657,
       "length": 16,
       "value": "\"connectionLost\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
       "kind": "StringLiteral",
-      "offset": 2601,
+      "offset": 2707,
       "length": 19,
       "value": "\"connectionAborted\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "StringLiteral",
-      "offset": 1126,
-      "length": 41,
-      "value": "\"An error has occurred. Please try again\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "StringLiteral",
-      "offset": 1208,
-      "length": 37,
-      "value": "\"The SDK is not supported < iOS 12.1\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "StringLiteral",
-      "offset": 1277,
-      "length": 41,
-      "value": "\"The SDK key is missing.DENTGigastoreSDK\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "StringLiteral",
-      "offset": 1354,
-      "length": 44,
-      "value": "\"A request is in progress. Please try later\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "StringLiteral",
-      "offset": 1427,
-      "length": 15,
-      "value": "\"Unknown error\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "StringLiteral",
-      "offset": 1476,
-      "length": 32,
-      "value": "\"Could not decode error payload\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "StringLiteral",
-      "offset": 1540,
-      "length": 25,
-      "value": "\"A response has an error\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "StringLiteral",
-      "offset": 1614,
-      "length": 38,
-      "value": "\"The eSIM installation was successful\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "StringLiteral",
-      "offset": 1691,
-      "length": 30,
-      "value": "\"The eSIM installation failed\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "StringLiteral",
-      "offset": 1761,
-      "length": 54,
-      "value": "\"The eSIM installation finished with an unknown error\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "StringLiteral",
-      "offset": 1866,
-      "length": 53,
-      "value": "\"eSIM functionality is not supported for your device\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "StringLiteral",
-      "offset": 1961,
-      "length": 44,
-      "value": "\"eSIM is not supported for your iOS version\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "StringLiteral",
-      "offset": 2041,
-      "length": 23,
-      "value": "\"No eSIM profile found\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "StringLiteral",
-      "offset": 2108,
-      "length": 37,
-      "value": "\"The eSIM profile is not installable\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "StringLiteral",
-      "offset": 2189,
-      "length": 39,
-      "value": "\"The eSIM profile is already installed\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "StringLiteral",
-      "offset": 2270,
-      "length": 35,
-      "value": "\"The eSIM activation code is empty\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "StringLiteral",
-      "offset": 2345,
-      "length": 34,
-      "value": "\"The eSIM subscription is missing\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "StringLiteral",
-      "offset": 2424,
-      "length": 54,
-      "value": "\"The eSIM profile installation is already in progress\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "StringLiteral",
-      "offset": 2511,
-      "length": 9,
-      "value": "\"offline\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "StringLiteral",
-      "offset": 2551,
-      "length": 16,
-      "value": "\"connectionLost\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Error\/​GigastoreError.swift",
-      "kind": "StringLiteral",
-      "offset": 2601,
-      "length": 19,
-      "value": "\"connectionAborted\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Model\/RequestMethod.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Network\/Model\/RequestMethod.swift",
       "kind": "StringLiteral",
       "offset": 174,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Model\/RequestMethod.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Network\/Model\/RequestMethod.swift",
       "kind": "StringLiteral",
       "offset": 196,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Model\/RequestMethod.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Network\/Model\/RequestMethod.swift",
       "kind": "StringLiteral",
       "offset": 218,
       "length": 5,
       "value": "\"PUT\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Model\/RequestMethod.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Network\/Model\/RequestMethod.swift",
       "kind": "StringLiteral",
       "offset": 242,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Model\/RequestMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 174,
-      "length": 5,
-      "value": "\"GET\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Model\/RequestMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 196,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Model\/RequestMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 218,
-      "length": 5,
-      "value": "\"PUT\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Model\/RequestMethod.swift",
-      "kind": "StringLiteral",
-      "offset": 242,
-      "length": 8,
-      "value": "\"DELETE\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Request\/EsimPostRequest.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Network\/Request\/EsimPostRequest.swift",
       "kind": "StringLiteral",
       "offset": 304,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Request\/EsimPostRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 430,
-      "length": 31,
-      "value": "\"devices\/\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Request\/EsimPostRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 455,
-      "length": 1,
-      "value": "\"\/esim\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Request\/EsimPostRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 850,
-      "length": 17,
-      "value": "\"inventoryItemId\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Request\/EsimPostRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 933,
-      "length": 9,
-      "value": "\"metatag\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Request\/EsimPostRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 1005,
-      "length": 11,
-      "value": "\"userToken\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Request\/EsimPostRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 1083,
-      "length": 10,
-      "value": "\"deviceId\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
       "kind": "StringLiteral",
       "offset": 304,
       "length": 10,
       "value": "\"RELEASED\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
       "kind": "StringLiteral",
       "offset": 427,
       "length": 11,
       "value": "\"INSTALLED\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
       "kind": "StringLiteral",
       "offset": 473,
       "length": 11,
       "value": "\"AVAILABLE\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
       "kind": "StringLiteral",
       "offset": 510,
       "length": 11,
       "value": "\"ALLOCATED\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
       "kind": "StringLiteral",
       "offset": 544,
       "length": 8,
       "value": "\"LINKED\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
       "kind": "StringLiteral",
       "offset": 578,
       "length": 11,
       "value": "\"CONFIRMED\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
       "kind": "StringLiteral",
       "offset": 617,
       "length": 13,
       "value": "\"UNAVAILABLE\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
       "kind": "StringLiteral",
       "offset": 654,
       "length": 9,
       "value": "\"CREATED\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
       "kind": "StringLiteral",
       "offset": 688,
       "length": 10,
       "value": "\"DISABLED\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
       "kind": "StringLiteral",
       "offset": 722,
       "length": 9,
       "value": "\"ENABLED\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
       "kind": "StringLiteral",
       "offset": 755,
       "length": 9,
       "value": "\"DELETED\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
       "kind": "StringLiteral",
       "offset": 788,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
       "kind": "StringLiteral",
       "offset": 824,
       "length": 12,
       "value": "\"QUARANTINE\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
       "kind": "StringLiteral",
       "offset": 858,
       "length": 7,
       "value": "\"ERROR\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
       "kind": "StringLiteral",
       "offset": 892,
       "length": 12,
       "value": "\"DOWNLOADED\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
-      "kind": "StringLiteral",
-      "offset": 304,
-      "length": 10,
-      "value": "\"RELEASED\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
-      "kind": "StringLiteral",
-      "offset": 427,
-      "length": 11,
-      "value": "\"INSTALLED\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
-      "kind": "StringLiteral",
-      "offset": 473,
-      "length": 11,
-      "value": "\"AVAILABLE\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
-      "kind": "StringLiteral",
-      "offset": 510,
-      "length": 11,
-      "value": "\"ALLOCATED\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
-      "kind": "StringLiteral",
-      "offset": 544,
-      "length": 8,
-      "value": "\"LINKED\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
-      "kind": "StringLiteral",
-      "offset": 578,
-      "length": 11,
-      "value": "\"CONFIRMED\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
-      "kind": "StringLiteral",
-      "offset": 617,
-      "length": 13,
-      "value": "\"UNAVAILABLE\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
-      "kind": "StringLiteral",
-      "offset": 654,
-      "length": 9,
-      "value": "\"CREATED\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
-      "kind": "StringLiteral",
-      "offset": 688,
-      "length": 10,
-      "value": "\"DISABLED\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
-      "kind": "StringLiteral",
-      "offset": 722,
-      "length": 9,
-      "value": "\"ENABLED\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
-      "kind": "StringLiteral",
-      "offset": 755,
-      "length": 9,
-      "value": "\"DELETED\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
-      "kind": "StringLiteral",
-      "offset": 788,
-      "length": 9,
-      "value": "\"UNKNOWN\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
-      "kind": "StringLiteral",
-      "offset": 824,
-      "length": 12,
-      "value": "\"QUARANTINE\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
-      "kind": "StringLiteral",
-      "offset": 858,
-      "length": 7,
-      "value": "\"ERROR\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
-      "kind": "StringLiteral",
-      "offset": 892,
-      "length": 12,
-      "value": "\"DOWNLOADED\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1997,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2149,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfile.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2360,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
       "kind": "StringLiteral",
       "offset": 232,
       "length": 8,
       "value": "\"sdkKey\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
       "kind": "StringLiteral",
       "offset": 274,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
       "kind": "StringLiteral",
       "offset": 332,
       "length": 21,
       "value": "\"Device-Manufacturer\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
       "kind": "StringLiteral",
       "offset": 390,
       "length": 14,
       "value": "\"Device-Model\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
       "kind": "StringLiteral",
       "offset": 439,
       "length": 12,
       "value": "\"OS-Version\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
       "kind": "StringLiteral",
       "offset": 487,
       "length": 13,
       "value": "\"Device-Type\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
       "kind": "StringLiteral",
       "offset": 537,
       "length": 8,
       "value": "\"Locale\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 759,
-      "length": 9,
-      "value": "\"http:\/\/\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 806,
-      "length": 10,
-      "value": "\"https:\/\/\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 946,
-      "length": 48,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 970,
-      "length": 1,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 993,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 1140,
-      "length": 32,
-      "value": "\"This method must be overridden\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 1290,
-      "length": 32,
-      "value": "\"This method must be overridden\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 1633,
-      "length": 33,
-      "value": "\"application\/json; charset=utf-8\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 2035,
-      "length": 5,
-      "value": "\"iOS\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 2289,
-      "length": 32,
-      "value": "\"This method must be overridden\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2960,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 3452,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3944,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 4058,
-      "length": 17,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 4074,
-      "length": 24,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 4097,
-      "length": 15,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 4111,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5992,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 6278,
-      "length": 41,
-      "value": "\"Could not decode valid payload \""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 6318,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 6593,
-      "length": 71,
-      "value": "\"Could not decode neigher payload nor errorPayload \""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 6652,
-      "length": 2,
-      "value": "\" in \""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 6663,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7207,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 7412,
-      "length": 104,
-      "value": "\"Error occured with code \""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 7463,
-      "length": 1,
-      "value": "\". Server did sent: \""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 7515,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 7776,
-      "length": 53,
-      "value": "\"Could not decode error response \""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 7817,
-      "length": 2,
-      "value": "\" in \""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 7828,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8666,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkRequest.swift",
       "kind": "StringLiteral",
       "offset": 8800,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkConfiguration.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 192,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkConfiguration.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 256,
       "length": 9,
       "value": "\"Staging\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkConfiguration.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 290,
       "length": 11,
       "value": "\"Reference\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkConfiguration.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 327,
       "length": 12,
       "value": "\"Production\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 256,
-      "length": 9,
-      "value": "\"Staging\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 290,
-      "length": 11,
-      "value": "\"Reference\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 327,
-      "length": 12,
-      "value": "\"Production\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 533,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1121,
-      "length": 25,
-      "value": "\"https:\/\/camelapi.io\/api\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1226,
-      "length": 29,
-      "value": "\"https:\/\/dromedaryapi.io\/api\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1333,
-      "length": 25,
-      "value": "\"https:\/\/llamaapi.io\/api\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 1397,
-      "length": 25,
-      "value": "\"https:\/\/llamaapi.io\/api\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Manager\/EsimManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 578,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Manager\/EsimManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 629,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Manager\/EsimManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1079,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Manager\/EsimManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1271,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Manager\/EsimManager.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Manager\/EsimManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1366,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Manager\/EsimManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1576,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Manager\/EsimManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1607,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Manager\/EsimManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2369,
-      "length": 56,
-      "value": "\"Cannot download eSim subscription, eSim not supported.\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Manager\/EsimManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2748,
-      "length": 44,
-      "value": "\"eSim profile \""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Manager\/EsimManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2772,
-      "length": 2,
-      "value": "\" is not installable\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Manager\/EsimManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3223,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Manager\/EsimManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3424,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Manager\/EsimManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3576,
-      "length": 46,
-      "value": "\"Not determined if device is eSIM capable yet\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Manager\/EsimManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4019,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Manager\/EsimManager.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Manager\/EsimManager.swift",
       "kind": "StringLiteral",
       "offset": 4181,
       "length": 53,
       "value": "\"eSIM supported: \""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Manager\/EsimManager.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Manager\/EsimManager.swift",
       "kind": "StringLiteral",
       "offset": 4233,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Manager\/EsimManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5685,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Manager\/EsimManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5977,
-      "length": 55,
-      "value": "\"eSIM subscription missing activation code\/matchingID.\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Manager\/EsimManager.swift",
-      "kind": "StringLiteral",
-      "offset": 6364,
-      "length": 44,
-      "value": "\"eSIM subscription missing smdpPlusAddress.\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Manager\/EsimManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8389,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Manager\/EsimManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8717,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Manager\/EsimManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8756,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfileSubscription.swift",
-      "kind": "BooleanLiteral",
-      "offset": 840,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfileSubscription.swift",
-      "kind": "BooleanLiteral",
-      "offset": 946,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfileSubscription.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1056,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfileSubscription.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1176,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/​GigastoreESIMProfileSubscription.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1216,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Request\/ProfileGetRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 374,
-      "length": 28,
-      "value": "\"Warning: profileUID is nil\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Request\/ProfileGetRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 427,
-      "length": 18,
-      "value": "\"devices\/profile\/\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Request\/ProfileGetRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 479,
-      "length": 31,
-      "value": "\"devices\/profile\/\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Request\/ProfileGetRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 509,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Request\/EsimGetRequest.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Network\/Request\/EsimGetRequest.swift",
       "kind": "StringLiteral",
       "offset": 236,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Request\/EsimGetRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 362,
-      "length": 31,
-      "value": "\"devices\/\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Request\/EsimGetRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 387,
-      "length": 1,
-      "value": "\"\/esim\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
       "kind": "StringLiteral",
       "offset": 257,
       "length": 8,
       "value": "\"status\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
       "kind": "StringLiteral",
       "offset": 292,
       "length": 7,
       "value": "\"title\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
       "kind": "StringLiteral",
       "offset": 328,
       "length": 9,
       "value": "\"message\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
       "kind": "StringLiteral",
       "offset": 367,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
-      "kind": "StringLiteral",
-      "offset": 257,
-      "length": 8,
-      "value": "\"status\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
-      "kind": "StringLiteral",
-      "offset": 292,
-      "length": 7,
-      "value": "\"title\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
-      "kind": "StringLiteral",
-      "offset": 328,
-      "length": 9,
-      "value": "\"message\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
-      "kind": "StringLiteral",
-      "offset": 367,
-      "length": 6,
-      "value": "\"type\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
       "kind": "StringLiteral",
       "offset": 1188,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
-      "kind": "StringLiteral",
-      "offset": 1487,
-      "length": 7,
-      "value": "\"Error\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1642,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1681,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
-      "kind": "StringLiteral",
-      "offset": 1796,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
-      "kind": "StringLiteral",
-      "offset": 1888,
-      "length": 10,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
-      "kind": "StringLiteral",
-      "offset": 1896,
-      "length": 2,
-      "value": "\" \""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
-      "kind": "StringLiteral",
-      "offset": 2016,
-      "length": 26,
-      "value": "\"\n\nError: \""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
-      "kind": "StringLiteral",
-      "offset": 2041,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2232,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2266,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2457,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2530,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2680,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2753,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2909,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2982,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Network\/Base\/BaseNetworkError.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3054,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Logging\/TDLoggingHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 1603,
-      "length": 6,
-      "value": "\"INFO\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Logging\/TDLoggingHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 1640,
-      "length": 9,
-      "value": "\"WARNING\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Logging\/TDLoggingHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 1678,
-      "length": 7,
-      "value": "\"ERROR\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Logging\/TDLoggingHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 1714,
-      "length": 7,
-      "value": "\"DEBUG\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Logging\/TDLoggingHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 2024,
-      "length": 86,
-      "value": "\"[\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Logging\/TDLoggingHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 2035,
-      "length": 1,
-      "value": "\"] \""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Logging\/TDLoggingHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 2049,
-      "length": 1,
-      "value": "\" \n{{at \""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Logging\/TDLoggingHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 2087,
-      "length": 1,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Logging\/TDLoggingHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 2099,
-      "length": 1,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Logging\/TDLoggingHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 2107,
-      "length": 1,
-      "value": "\"}}\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Logging\/TDLoggingHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 2155,
-      "length": 43,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Logging\/TDLoggingHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 2167,
-      "length": 1,
-      "value": "\"| \""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Logging\/TDLoggingHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 2197,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Manager\/SettingsManager.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Manager\/SettingsManager.swift",
       "kind": "StringLiteral",
       "offset": 242,
       "length": 16,
       "value": "\"esimCapability\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Manager\/SettingsManager.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Manager\/SettingsManager.swift",
       "kind": "StringLiteral",
       "offset": 287,
       "length": 8,
       "value": "\"sdkKey\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Manager\/SettingsManager.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Manager\/SettingsManager.swift",
       "kind": "StringLiteral",
       "offset": 327,
       "length": 11,
       "value": "\"userToken\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Manager\/SettingsManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3018,
-      "length": 60,
-      "value": "\"DENTGigastoreSDK Error: Could not remove secure key \""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Manager\/SettingsManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3077,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Manager\/SettingsManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3599,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Manager\/SettingsManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3828,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Manager\/SettingsManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3883,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Controller\/​GigastoreController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2228,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Controller\/​GigastoreController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3181,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Controller\/​GigastoreController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4779,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Controller\/​GigastoreController.swift",
-      "kind": "StringLiteral",
-      "offset": 5833,
-      "length": 30,
-      "value": "\"eSIM: Installation successed\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Controller\/​GigastoreController.swift",
-      "kind": "StringLiteral",
-      "offset": 6137,
-      "length": 98,
-      "value": "\"eSIM: Installation failed with code: \""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Controller\/​GigastoreController.swift",
-      "kind": "StringLiteral",
-      "offset": 6199,
-      "length": 3,
-      "value": "\" and message: \""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Controller\/​GigastoreController.swift",
-      "kind": "StringLiteral",
-      "offset": 6234,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Controller\/​GigastoreController.swift",
-      "kind": "StringLiteral",
-      "offset": 136,
-      "length": 22,
-      "value": "\"DENTGigastoreSDK.​GigastoreController\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Result\/ProfileInstallationResult.swift",
-      "kind": "StringLiteral",
-      "offset": 1077,
-      "length": 30,
-      "value": "\"Profile is already installed\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Result\/ProfileInstallationResult.swift",
-      "kind": "StringLiteral",
-      "offset": 1210,
-      "length": 20,
-      "value": "\": \""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Result\/ProfileInstallationResult.swift",
-      "kind": "StringLiteral",
-      "offset": 1229,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Result\/ProfileInstallationResult.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1864,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/Result\/ProfileInstallationResult.swift",
-      "kind": "StringLiteral",
-      "offset": 234,
-      "length": 5,
-      "value": "\"DENTGigastoreSDK.Error\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/EsimCapabilityHelper.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1996,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/EsimCapabilityHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 3937,
-      "length": 40,
-      "value": "\"unable to detect the device model name\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/EsimCapabilityHelper.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4972,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/EsimCapabilityHelper.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5057,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/EsimCapabilityHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 5586,
-      "length": 113,
-      "value": "\"eSIM capabilities app version: \""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/EsimCapabilityHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 5641,
-      "length": 4,
-      "value": "\" does not match current app version: \""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/EsimCapabilityHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 5698,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/EsimCapabilityHelper.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5720,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/EsimCapabilityHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 5828,
-      "length": 108,
-      "value": "\"eSIM capabilities os version: \""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/EsimCapabilityHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 5881,
-      "length": 4,
-      "value": "\" does not match device os version: \""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/EsimCapabilityHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 5935,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/EsimCapabilityHelper.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5957,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/EsimCapabilityHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 6072,
-      "length": 129,
-      "value": "\"eSIM capabilities device model: \""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/EsimCapabilityHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 6129,
-      "length": 4,
-      "value": "\" does not match device model: \""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/EsimCapabilityHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 6200,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/EsimCapabilityHelper.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6222,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/EsimCapabilityHelper.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6262,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/EsimCapabilityHelper.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6503,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/EsimCapabilityHelper.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6630,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/EsimCapabilityHelper.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7037,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/EsimCapabilityHelper.swift",
-      "kind": "Array",
-      "offset": 7095,
-      "length": 547,
-      "value": "[\"iPhone11,2\", \"iPhone11,4\", \"iPhone11,6\", \"iPhone11,8\", \"iPhone12,1\", \"iPhone12,3\", \"iPhone12,5\", \"iPhone12,8\", \"iPhone13,1\", \"iPhone13,2\", \"iPhone13,3\", \"iPhone13,4\"]"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/EsimCapability.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Models\/EsimCapability.swift",
       "kind": "BooleanLiteral",
       "offset": 481,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/EsimCapability.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Models\/EsimCapability.swift",
       "kind": "StringLiteral",
       "offset": 609,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/EsimCapability.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Models\/EsimCapability.swift",
       "kind": "StringLiteral",
       "offset": 718,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/EsimCapability.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Models\/EsimCapability.swift",
       "kind": "StringLiteral",
       "offset": 836,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/EsimCapability.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Models\/EsimCapability.swift",
       "kind": "BooleanLiteral",
       "offset": 1187,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/EsimCapability.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Models\/EsimCapability.swift",
       "kind": "StringLiteral",
       "offset": 1249,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/EsimCapability.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Models\/EsimCapability.swift",
       "kind": "StringLiteral",
       "offset": 1290,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Models\/EsimCapability.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Models\/EsimCapability.swift",
       "kind": "StringLiteral",
       "offset": 1332,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/DeviceHelper.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/DeviceHelper.swift",
       "kind": "StringLiteral",
       "offset": 211,
       "length": 4,
       "value": "\"en\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/DeviceHelper.swift",
-      "kind": "BooleanLiteral",
-      "offset": 809,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/DeviceHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 882,
-      "length": 6,
-      "value": "\"iPad\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/DeviceHelper.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1079,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/DeviceHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 1152,
-      "length": 8,
-      "value": "\"iPhone\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/DeviceHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1513,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/DeviceHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 1914,
-      "length": 7,
-      "value": "\"Apple\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/DeviceHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2055,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/BundleHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 285,
-      "length": 35,
-      "value": "\"com.dentwireless.DENTGigastoreSDK\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/ConfigEnvironment.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/ConfigEnvironment.swift",
       "kind": "StringLiteral",
       "offset": 214,
       "length": 20,
       "value": "\"CFBundleIdentifier\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/ConfigEnvironment.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/ConfigEnvironment.swift",
       "kind": "StringLiteral",
       "offset": 275,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/ConfigEnvironment.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/ConfigEnvironment.swift",
       "kind": "StringLiteral",
       "offset": 333,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/ConfigEnvironment.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/ConfigEnvironment.swift",
       "kind": "StringLiteral",
       "offset": 382,
       "length": 22,
       "value": "\"EsimInstallationMode\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/ConfigEnvironment.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/ConfigEnvironment.swift",
       "kind": "StringLiteral",
       "offset": 431,
       "length": 12,
       "value": "\"ServerTier\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/ConfigEnvironment.swift",
-      "kind": "StringLiteral",
-      "offset": 214,
-      "length": 20,
-      "value": "\"CFBundleIdentifier\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/ConfigEnvironment.swift",
-      "kind": "StringLiteral",
-      "offset": 275,
-      "length": 28,
-      "value": "\"CFBundleShortVersionString\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/ConfigEnvironment.swift",
-      "kind": "StringLiteral",
-      "offset": 333,
-      "length": 17,
-      "value": "\"CFBundleVersion\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/ConfigEnvironment.swift",
-      "kind": "StringLiteral",
-      "offset": 382,
-      "length": 22,
-      "value": "\"EsimInstallationMode\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/ConfigEnvironment.swift",
-      "kind": "StringLiteral",
-      "offset": 431,
-      "length": 12,
-      "value": "\"ServerTier\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/ConfigEnvironment.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/ConfigEnvironment.swift",
       "kind": "StringLiteral",
       "offset": 648,
       "length": 22,
       "value": "\"Plist file not found\""
     },
     {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/ConfigEnvironment.swift",
-      "kind": "StringLiteral",
-      "offset": 896,
-      "length": 41,
-      "value": "\"Config value not found: \""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/ConfigEnvironment.swift",
-      "kind": "StringLiteral",
-      "offset": 936,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/ConfigEnvironment.swift",
-      "kind": "StringLiteral",
-      "offset": 971,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/ErrorHelper.swift",
+      "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Helper\/ErrorHelper.swift",
       "kind": "StringLiteral",
       "offset": 140,
-      "length": 29,
-      "value": "\"DENTGigastoreSDKErrorDomain\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/KeychainHelper.swift",
-      "kind": "Dictionary",
-      "offset": 692,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/KeychainHelper.swift",
-      "kind": "Dictionary",
-      "offset": 1181,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/KeychainHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 1418,
-      "length": 71,
-      "value": "\"DENTGigastoreSDK Error: Could not update security item for: \""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/KeychainHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 1488,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/KeychainHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 1839,
-      "length": 23,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/KeychainHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 1858,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/KeychainHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 1861,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/KeychainHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 1945,
-      "length": 68,
-      "value": "\"DENTGigastoreSDK Error: Could not add security item for: \""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/KeychainHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 2012,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/KeychainHelper.swift",
-      "kind": "Dictionary",
-      "offset": 2479,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/KeychainHelper.swift",
-      "kind": "Dictionary",
-      "offset": 3375,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/KeychainHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 3551,
-      "length": 71,
-      "value": "\"DENTGigastoreSDK Error: Could not delete security item for: \""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/KeychainHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 3621,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/KeychainHelper.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3656,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/silviohinspeter\/Documents\/tower\/gigastore-ios-sdk-dev\/Source\/Helper\/KeychainHelper.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3688,
-      "length": 4,
-      "value": "true"
+      "length": 25,
+      "value": "\"GigastoreSDKErrorDomain\""
     }
   ]
 }

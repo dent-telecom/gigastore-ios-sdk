@@ -1,9 +1,9 @@
-# DENTGigastoreSDK
+# Gigastore SDK
 
 &nbsp;
 &nbsp;
 ## Introduction
-SDK for installing DENT Gigastore eSIMs in third party apps.
+SDK for installing Gigastore eSIMs in third party apps.
 
 ### Availability
 To download a DENT eSIM in your app through Apple’s eSIM API, DENT needs to register your app.
@@ -12,10 +12,10 @@ To start this process, follow the instructions here: https://docs.giga.store/ios
 &nbsp;
 &nbsp;
 ## First Steps
-DENT Gigastore SDK for iOS
+Gigastore SDK for iOS
 
 ### Prerequisites
-You need a [DENT Gigastore](https://dent.giga.store/) account to use the SDK.
+You need a [Gigastore](https://dent.giga.store/) account to use the SDK.
 
 To download a DENT eSIM in your app through Apple’s eSIM API, DENT needs to register your app.
 To start this process, follow the instructions here: https://docs.giga.store/ios/enable-direct-installation
@@ -29,7 +29,7 @@ For the initialization, you need an SDK Key. You can find it in the Gigastore po
 
 >  The eSIM installation works only iOS 12.1+
 
-- iOS 11.0+
+- iOS 12.0+
 - Xcode 12+
 - Swift 5.3+
 
@@ -62,11 +62,11 @@ In your Podfile:
 ```ruby
 use_frameworks!
 
-platform :ios, '11.0'
+platform :ios, '12.0'
 
 target 'TARGET_NAME' do
     pod 'DENTGigastoreSDK', :git => 'https://github.com/dent-telecom/gigastore-ios-sdk.git', 
-                          :tag => '1.1.0'
+                          :tag => '1.2.0'
 end
 
 ```
@@ -83,7 +83,7 @@ pod install
 In your Cartfile:
 
 ```ruby
-binary "https://camelapi.io/ios-sdk/release/DENTGigastoreSDK.json" ~> 1.1.0
+binary "https://camelapi.io/ios-sdk/release/DENTGigastoreSDK.json" ~> 1.2.0
 
 ```
 
@@ -97,7 +97,7 @@ Add the following to your `dependencies` value of your `Package.swift` file.
 dependencies: [
   .package(
     url: "https://github.com/dent-telecom/gigastore-ios-sdk.git",
-    from: "1.1.0")
+    from: "1.2.0")
   )
 ]
 
@@ -113,7 +113,7 @@ dependencies: [
   $ git init
 ```
 
-- Add DENTGigastoreSDK as a git [submodule](https://git-scm.com/docs/git-submodule) by running the following command:
+- Add Gigastore SDK as a git [submodule](https://git-scm.com/docs/git-submodule) by running the following command:
 
 ```ruby
   $ git submodule add https://github.com/dent-telecom/gigastore-ios-sdk.git
@@ -133,7 +133,7 @@ dependencies: [
   > The `DENTGigastoreSDK.xcframework` is automatically added as a target dependency, linked framework and embedded framework in a copy files build phase. This is all you need to create a build for the simulator or a device.
   
 ## Add Build Phase
-These steps are crucial in order to enable eSIM profile installations via the DENT Gigastore SDK.
+These steps are crucial in order to enable eSIM profile installations via the Gigastore SDK.
 
 ### Info.plist and Entitlements
 > Please make sure that you have a `<TargetName>.entitlements` in your project.
@@ -166,8 +166,8 @@ import DENTGigastoreSDK
 
 ### Load
 
-The `load` function initializes the DENTGigastoreSDK. Please make sure to include your "SDK Key" here. 
-You can find your SDK Key in the [DENT Gigastore](https://dent.giga.store/) under "SDK -> iOS -> Sales Channel".
+The `load` function initializes the Gigastore SDK. Please make sure to include your "SDK Key" here. 
+You can find your SDK Key in the [Gigastore](https://dent.giga.store/) under "SDK -> iOS -> Sales Channel".
 
 ```swift
 let sdkKey = "SDK KEY"
@@ -330,8 +330,14 @@ Only HTTPS server URLs are allowed.
 - Introducing the getProfile method and deprecated existing flows
 - Changed logic for test mode in the load function
 
+### 1.2.0
+
+- Adding support for iOS 26 Apple eSIM APIs for country packages
+- Deployment target increased from iOS 11 to iOS 12
+
+
 &nbsp;
 &nbsp;
 ## Credits
 
-DENTGigastoreSDK is owned and maintained by [DENT Telecom GmbH](https://www.denttelecom.io).
+Gigastore SDK is owned and maintained by [DENT Telecom GmbH](https://www.denttelecom.io).
