@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DENTGigastoreSDK
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name DENTGigastoreSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
 import CoreTelephony
 import Foundation
 import Swift
@@ -17,13 +17,23 @@ public typealias GigastoreHandleAllProfilesCompletion = (_ profiles: [DENTGigast
 @_hasMissingDesignatedInitializers public class ​GigastoreSession {
   public func load(withSDKKey: Swift.String, testMode: Swift.Bool = false)
   public func setUserToken(userToken: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func isEsimCapable(completion: DENTGigastoreSDK.GigastoreDeviceIsEsimCapableCompletion? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getProfile(profileUID: Swift.String, completion: DENTGigastoreSDK.GigastoreHandleGetProfileCompletion? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "We are going to remove this method. Use the Gigastore API to activate an item instead.")
   public func activateItem(inventoryItem: Swift.String?, metaTag: Swift.String?, completion: DENTGigastoreSDK.GigastoreHandleActivateItemCompletion? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func installProfile(profile: DENTGigastoreSDK.GigastoreESIMProfile, completion: DENTGigastoreSDK.GigastoreHandleInstallProfileCompletion? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "We are going to remove this method. Use the Gigastore API to fetch the profiles of a user instead.")
   public func getAllProfiles(completion: DENTGigastoreSDK.GigastoreHandleAllProfilesCompletion? = nil)
+  #endif
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class GigastoreESIMProfile : ObjectiveC.NSObject, Swift.Codable {
@@ -43,7 +53,9 @@ public typealias GigastoreHandleAllProfilesCompletion = (_ profiles: [DENTGigast
     case quarantine
     case error
     case downloaded
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -56,13 +68,22 @@ public typealias GigastoreHandleAllProfilesCompletion = (_ profiles: [DENTGigast
     case eid
     case subscription
     case state
+    case supportedCountries
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(stringValue: Swift.String)
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(intValue: Swift.Int)
+    #endif
     public typealias RawValue = Swift.String
+    #if compiler(>=5.3) && $NonescapableTypes
     public var intValue: Swift.Int? {
       get
     }
+    #endif
     public var rawValue: Swift.String {
       get
     }
@@ -74,6 +95,7 @@ public typealias GigastoreHandleAllProfilesCompletion = (_ profiles: [DENTGigast
   public var state: DENTGigastoreSDK.GigastoreESIMProfile.State?
   public var imsi: Swift.String?
   public var iccid: Swift.String?
+  public var supportedCountries: [Swift.String]?
   public var isValidEsimProfile: Swift.Bool {
     get
   }
