@@ -35,6 +35,7 @@ For the initialization, you need an SDK Key. You can find it in the Gigastore po
 
 ### Supported devices
 
+- iPhone 17, iPhone 17 Air, iPhone 17 Pro and iPhone 17 Pro Max
 - iPhone 16, iPhone 16 Plus, iPhone 16 Pro and iPhone 16 Pro Max
 - iPhone 15, iPhone 15 Plus, iPhone 15 Pro and iPhone 15 Pro Max
 - iPhone 14, iPhone 14 Plus, iPhone 14 Pro and iPhone 14 Pro Max
@@ -66,7 +67,7 @@ platform :ios, '12.0'
 
 target 'TARGET_NAME' do
     pod 'DENTGigastoreSDK', :git => 'https://github.com/dent-telecom/gigastore-ios-sdk.git', 
-                          :tag => '1.2.0'
+                          :tag => '1.2.1'
 end
 
 ```
@@ -83,7 +84,7 @@ pod install
 In your Cartfile:
 
 ```ruby
-binary "https://camelapi.io/ios-sdk/release/DENTGigastoreSDK.json" ~> 1.2.0
+binary "https://camelapi.io/ios-sdk/release/DENTGigastoreSDK.json" ~> 1.2.1
 
 ```
 
@@ -97,7 +98,7 @@ Add the following to your `dependencies` value of your `Package.swift` file.
 dependencies: [
   .package(
     url: "https://github.com/dent-telecom/gigastore-ios-sdk.git",
-    from: "1.2.0")
+    from: "1.2.1")
   )
 ]
 
@@ -199,7 +200,7 @@ First, you need to check if the device is eSIM capable.
 
 The `isEsimCapable` function can be used to check whether the device is eSIM capable or not.
 
-> This query may take some time to complete.
+> This query may take some time to complete. Use only the result passed to the completion when deciding whether the device is eSIM capable. Do not read capability from elsewhere before the completion has been called.
 
 ```swift
 Gigastore.isEsimCapable(completion: { (isCapable) in
@@ -334,6 +335,12 @@ Only HTTPS server URLs are allowed.
 
 - Adding support for iOS 26 Apple eSIM APIs for country packages
 - Deployment target increased from iOS 11 to iOS 12
+
+### 1.2.1
+
+- Improved eSIM capability detection: SDK no longer caches a "not capable" result, so the next app launch or check re-evaluates (e.g. after the user enables cellular or leaves airplane mode)
+- `supportsEsim` now returns `nil` when capability has not been determined yet, so apps can distinguish "unknown" from "not capable"
+- Documentation: clarified that callers should use only the result from `isEsimCapable(completion:)` and not read capability before the completion has been called
 
 
 &nbsp;
