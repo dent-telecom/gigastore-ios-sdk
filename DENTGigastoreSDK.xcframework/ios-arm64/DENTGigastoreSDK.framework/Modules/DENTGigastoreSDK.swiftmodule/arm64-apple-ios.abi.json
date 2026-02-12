@@ -3561,21 +3561,21 @@
     {
       "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Manager\/EsimManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1366,
+      "offset": 1357,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Manager\/EsimManager.swift",
       "kind": "StringLiteral",
-      "offset": 4181,
+      "offset": 4172,
       "length": 53,
       "value": "\"eSIM supported: \""
     },
     {
       "filePath": "\/opt\/build\/gigastore-ios-sdk-dev\/Source\/Manager\/EsimManager.swift",
       "kind": "StringLiteral",
-      "offset": 4233,
+      "offset": 4224,
       "length": 1,
       "value": "\"\""
     },
